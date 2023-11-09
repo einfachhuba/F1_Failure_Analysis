@@ -1,4 +1,3 @@
 /analysis
-/data
-*.png
+/__pycache__
 
