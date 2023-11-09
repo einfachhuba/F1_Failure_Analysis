@@ -36,6 +36,3 @@ for file in os.listdir(path):
         plt.legend(bbox_to_anchor=(0.9999, 1))
         plt.savefig(os.path.join(plotpath, file[:-4] + '.png'))
         
-            
-
-
