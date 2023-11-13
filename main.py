@@ -33,8 +33,8 @@ for file in os.listdir(path):
             plt.yticks(range(0, 300, 25))
         else:
             plt.title('F1 Breakdowns (2014 - 2024)')
-            plt.ylim(0, 125)
-            plt.yticks(range(0, 125, 25))
+            plt.ylim(0, 150)
+            plt.yticks(range(0, 150, 25))
 
         plt.xlabel('Year')
         plt.ylabel('Amount')
@@ -43,6 +43,18 @@ for file in os.listdir(path):
 
         # group data by circuit and status and year
         df_data_ds = df_data.groupby(['year', 'circuit', 'status']).size().reset_index(name='counts')
+        
+        # licircuits = ['Australian Grand Prix', 'Austrian Grand Prix', 'Belgian Grand Prix', 'Brazilian Grand Prix',
+        #               'British Grand Prix', 'Canadian Grand Prix', 'Dutch Grand Prix', 'European Grand Prix',
+        #               'French Grand Prix', 'German Grand Prix', 'Hungarian Grand Prix', 'Italian Grand Prix',
+        #               'Japanese Grand Prix', 'Mexican Grand Prix', 'Monaco Grand Prix','Portuguese Grand Prix',
+        #               'Spanish Grand Prix', 'United States Grand Prix']
+        
+        licircuits = ['Austrian Grand Prix', 'Belgian Grand Prix', 'British Grand Prix',
+                      'Canadian Grand Prix', 'Italian Grand Prix', 'Monaco Grand Prix']
+        
+        # filter data for only circuits int the list
+        df_data_ds = df_data_ds[df_data_ds['circuit'].isin(licircuits)]
 
         # pivot data for each circuit
         for circuit in df_data_ds['circuit'].unique():
