@@ -47,27 +47,27 @@ for file in os.listdir(path):
         plt.legend(bbox_to_anchor=(0.9999, 1))
         plt.savefig(os.path.join(plotpath, file[:-4] + '.png'))
 
-        # # group data by circuit and status and year
-        # df_data_ds = df_data.groupby(['year', 'circuit', 'status']).size().reset_index(name='counts')
+        # group data by circuit and status and year
+        df_data_ds = df_data.groupby(['year', 'circuit', 'status']).size().reset_index(name='counts')
         
-        # licircuits = ['Austrian Grand Prix', 'Belgian Grand Prix', 'British Grand Prix',
-        #               'Canadian Grand Prix', 'Italian Grand Prix', 'Monaco Grand Prix']
+        licircuits = ['Austrian Grand Prix', 'Belgian Grand Prix', 'British Grand Prix',
+                      'Canadian Grand Prix', 'Italian Grand Prix', 'Monaco Grand Prix']
         
-        # # filter data for only circuits in the list
-        # df_data_ds = df_data_ds[df_data_ds['circuit'].isin(licircuits)]
+        # filter data for only circuits in the list
+        df_data_ds = df_data_ds[df_data_ds['circuit'].isin(licircuits)]
 
-        # # pivot data for each circuit
-        # for circuit in df_data_ds['circuit'].unique():
-        #     df_data_ds_circuit = df_data_ds[df_data_ds['circuit'] == circuit]
-        #     df_data_ds_circuit = df_data_ds_circuit.pivot(index='year', columns='status', values='counts')
+        # pivot data for each circuit
+        for circuit in df_data_ds['circuit'].unique():
+            df_data_ds_circuit = df_data_ds[df_data_ds['circuit'] == circuit]
+            df_data_ds_circuit = df_data_ds_circuit.pivot(index='year', columns='status', values='counts')
             
-        #     # plot data
-        #     df_data_ds_circuit.plot(kind='bar', stacked=True, figsize=(15, 5), color=custom_colors)
-        #     plt.title('F1 Breakdowns (' + str(circuit) + ')')
-        #     plt.xlabel('Year')
-        #     plt.ylabel('Amount')
-        #     plt.ylim(0, 25)
-        #     plt.yticks(range(0, 20, 5))
-        #     plt.legend(bbox_to_anchor=(0.9999, 1))
-        #     plt.savefig(os.path.join(circuitpath, file[:-4] + '_' + str(circuit) + '.png'))
+            # plot data
+            df_data_ds_circuit.plot(kind='bar', stacked=True, figsize=(15, 5), color=custom_colors)
+            plt.title('F1 Breakdowns (' + str(circuit) + ')')
+            plt.xlabel('Year')
+            plt.ylabel('Amount')
+            plt.ylim(0, 25)
+            plt.yticks(range(0, 20, 5))
+            plt.legend(bbox_to_anchor=(0.9999, 1))
+            plt.savefig(os.path.join(circuitpath, file[:-4] + '_' + str(circuit) + '.png'))
         
