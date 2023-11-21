@@ -4,10 +4,11 @@ import os
 
 def getdata(startdate, enddate):
     dfresult = pd.DataFrame()
+    today = pd.to_datetime('today').strftime('%Y-%m-%d')
     
     for year in range(startdate, enddate):
         df_schedule = pyd.get_schedule(year)
-        inrace_amount = df_schedule[df_schedule['date'] < '2023-11-07']['round'].count()
+        inrace_amount = df_schedule[df_schedule['date'] < today]['round'].count()
         for race in range(1, inrace_amount + 1):
             if dfresult.empty:
                 dfresult = pyd.get_race_result(year, race)[['constructor', 'status']]
