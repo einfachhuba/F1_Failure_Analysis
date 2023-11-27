@@ -32,6 +32,9 @@ custom_colors = [   '#945417', '#1eabfa', '#a22780', '#ecb920',
 licircuits =    ['Austrian Grand Prix', 'Belgian Grand Prix', 'British Grand Prix',
                 'Canadian Grand Prix', 'Italian Grand Prix', 'Monaco Grand Prix']
             
+ligroups =      ['Engine', 'Gearbox', 'Powertrain', 'Suspension', 'Electrical', 'Tyre',
+                 'Fluid systems', 'Chassis', 'Driver-related', 'Overheating', 'Accident',
+                 'Not classified', 'Disqualified', 'Turbo']
 
 if 'p' in args:
     print('Plotting data...')
@@ -154,6 +157,14 @@ if 'a' in args:
     
     df_hybrid_newys = df_hybrid.groupby(['year', 'status']).size().reset_index(name='counts')
     df_hybrid_newys = df_hybrid_newys.pivot(index=['status'], columns='year', values='counts')
+
+    # reindex the dataframes with the ligroups
+    df_turbo_newys = df_turbo_newys.reindex(ligroups, level=0, fill_value=0)
+    df_hybrid_newys = df_hybrid_newys.reindex(ligroups, level=0, fill_value=0)
+    
+    # Sort the rows by the index
+    df_turbo_newys.sort_index(inplace=True)
+    df_hybrid_newys.sort_index(inplace=True)
     
     # plot the correlation between the two eras as a line chart with data points
     plt.title('Correlation between Turbo and Hybrid era')
@@ -177,6 +188,14 @@ if 'a' in args:
     df_hybrid_circuit = df_hybrid.groupby(['year', 'circuit', 'status']).size().reset_index(name='counts')
     df_hybrid_circuit = df_hybrid_circuit.pivot(index=['circuit', 'status'], columns='year', values='counts')
     df_hybrid_circuit = df_hybrid_circuit.fillna(0)
+
+    # reindex the dataframes with the ligroups
+    df_turbo_circuit = df_turbo_circuit.reindex(ligroups, level=1, fill_value=0)
+    df_hybrid_circuit = df_hybrid_circuit.reindex(ligroups, level=1, fill_value=0)
+
+    # sort the dataframes by the index
+    df_turbo_circuit.sort_index(inplace=True)
+    df_hybrid_circuit.sort_index(inplace=True)
 
     for circuit in df_turbo_circuit.index.get_level_values(0).unique():
         plt.title('Correlation between Turbo and Hybrid era (' + str(circuit) + ')')
