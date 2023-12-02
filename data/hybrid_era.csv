@@ -36,7 +36,7 @@ Ferrari,Finished,2014-03-30,Malaysian Grand Prix,2014,2
 Caterham,Finished,2014-03-30,Malaysian Grand Prix,2014,2
 Caterham,Finished,2014-03-30,Malaysian Grand Prix,2014,2
 Marussia,Finished,2014-03-30,Malaysian Grand Prix,2014,2
-Red Bull,Tyre,2014-03-30,Malaysian Grand Prix,2014,2
+Red Bull,Wing,2014-03-30,Malaysian Grand Prix,2014,2
 Sauber,Gearbox,2014-03-30,Malaysian Grand Prix,2014,2
 Sauber,Electrical,2014-03-30,Malaysian Grand Prix,2014,2
 Toro Rosso,Engine,2014-03-30,Malaysian Grand Prix,2014,2
@@ -124,7 +124,6 @@ Sauber,Accident,2014-05-25,Monaco Grand Prix,2014,6
 Williams,Engine,2014-05-25,Monaco Grand Prix,2014,6
 Toro Rosso,Engine,2014-05-25,Monaco Grand Prix,2014,6
 Sauber,Accident,2014-05-25,Monaco Grand Prix,2014,6
-Toro Rosso,Overheating,2014-05-25,Monaco Grand Prix,2014,6
 Red Bull,Turbo,2014-05-25,Monaco Grand Prix,2014,6
 Force India,Accident,2014-05-25,Monaco Grand Prix,2014,6
 Red Bull,Finished,2014-06-08,Canadian Grand Prix,2014,7
@@ -253,7 +252,6 @@ Sauber,Finished,2014-08-24,Belgian Grand Prix,2014,12
 Marussia,Finished,2014-08-24,Belgian Grand Prix,2014,12
 Caterham,Finished,2014-08-24,Belgian Grand Prix,2014,12
 Marussia,Gearbox,2014-08-24,Belgian Grand Prix,2014,12
-Lotus F1,Overheating,2014-08-24,Belgian Grand Prix,2014,12
 Caterham,Engine,2014-08-24,Belgian Grand Prix,2014,12
 Mercedes,Finished,2014-09-07,Italian Grand Prix,2014,13
 Mercedes,Finished,2014-09-07,Italian Grand Prix,2014,13
@@ -776,7 +774,6 @@ Sauber,Finished,2016-03-20,Australian Grand Prix,2016,1
 Manor Marussia,Finished,2016-03-20,Australian Grand Prix,2016,1
 Sauber,Engine,2016-03-20,Australian Grand Prix,2016,1
 Ferrari,Engine,2016-03-20,Australian Grand Prix,2016,1
-Manor Marussia,Overheating,2016-03-20,Australian Grand Prix,2016,1
 Haas F1 Team,Accident,2016-03-20,Australian Grand Prix,2016,1
 McLaren,Accident,2016-03-20,Australian Grand Prix,2016,1
 Mercedes,Finished,2016-04-03,Bahrain Grand Prix,2016,2
@@ -1943,7 +1940,6 @@ McLaren,Finished,2018-10-07,Japanese Grand Prix,2018,17
 McLaren,Finished,2018-10-07,Japanese Grand Prix,2018,17
 Williams,Finished,2018-10-07,Japanese Grand Prix,2018,17
 Williams,Finished,2018-10-07,Japanese Grand Prix,2018,17
-Sauber,Overheating,2018-10-07,Japanese Grand Prix,2018,17
 Renault,Engine,2018-10-07,Japanese Grand Prix,2018,17
 Haas F1 Team,Accident,2018-10-07,Japanese Grand Prix,2018,17
 Ferrari,Finished,2018-10-21,United States Grand Prix,2018,18
@@ -3116,7 +3112,6 @@ Williams,Finished,2021-10-24,United States Grand Prix,2021,17
 Haas F1 Team,Finished,2021-10-24,United States Grand Prix,2021,17
 Haas F1 Team,Finished,2021-10-24,United States Grand Prix,2021,17
 Alpine F1 Team,Chassis,2021-10-24,United States Grand Prix,2021,17
-Alpine F1 Team,Overheating,2021-10-24,United States Grand Prix,2021,17
 AlphaTauri,Suspension,2021-10-24,United States Grand Prix,2021,17
 Red Bull,Finished,2021-11-07,Mexico City Grand Prix,2021,18
 Mercedes,Finished,2021-11-07,Mexico City Grand Prix,2021,18
@@ -3354,7 +3349,6 @@ Aston Martin,Finished,2022-05-29,Monaco Grand Prix,2022,7
 Williams,Finished,2022-05-29,Monaco Grand Prix,2022,7
 Alfa Romeo,Finished,2022-05-29,Monaco Grand Prix,2022,7
 AlphaTauri,Finished,2022-05-29,Monaco Grand Prix,2022,7
-Williams,Overheating,2022-05-29,Monaco Grand Prix,2022,7
 Haas F1 Team,Accident,2022-05-29,Monaco Grand Prix,2022,7
 Haas F1 Team,Fluid systems,2022-05-29,Monaco Grand Prix,2022,7
 Red Bull,Finished,2022-06-12,Azerbaijan Grand Prix,2022,8
@@ -3674,7 +3668,6 @@ AlphaTauri,Finished,2023-03-05,Bahrain Grand Prix,2023,1
 Haas F1 Team,Finished,2023-03-05,Bahrain Grand Prix,2023,1
 Alfa Romeo,Finished,2023-03-05,Bahrain Grand Prix,2023,1
 McLaren,Finished,2023-03-05,Bahrain Grand Prix,2023,1
-Alpine F1 Team,Overheating,2023-03-05,Bahrain Grand Prix,2023,1
 Ferrari,Engine,2023-03-05,Bahrain Grand Prix,2023,1
 McLaren,Electrical,2023-03-05,Bahrain Grand Prix,2023,1
 Red Bull,Finished,2023-03-19,Saudi Arabian Grand Prix,2023,2
@@ -3952,7 +3945,7 @@ Haas F1 Team,Finished,2023-09-17,Singapore Grand Prix,2023,15
 Williams,Finished,2023-09-17,Singapore Grand Prix,2023,15
 Aston Martin,Finished,2023-09-17,Singapore Grand Prix,2023,15
 Mercedes,Accident,2023-09-17,Singapore Grand Prix,2023,15
-Alfa Romeo,Tyre,2023-09-17,Singapore Grand Prix,2023,15
+Alfa Romeo,Overheating,2023-09-17,Singapore Grand Prix,2023,15
 Alpine F1 Team,Gearbox,2023-09-17,Singapore Grand Prix,2023,15
 AlphaTauri,Accident,2023-09-17,Singapore Grand Prix,2023,15
 Red Bull,Finished,2023-09-24,Japanese Grand Prix,2023,16
@@ -4073,3 +4066,22 @@ Alfa Romeo,Finished,2023-11-19,Las Vegas Grand Prix,2023,21
 AlphaTauri,Gearbox,2023-11-19,Las Vegas Grand Prix,2023,21
 Haas F1 Team,Engine,2023-11-19,Las Vegas Grand Prix,2023,21
 McLaren,Accident,2023-11-19,Las Vegas Grand Prix,2023,21
+Red Bull,Finished,2023-11-26,Abu Dhabi Grand Prix,2023,22
+Ferrari,Finished,2023-11-26,Abu Dhabi Grand Prix,2023,22
+Mercedes,Finished,2023-11-26,Abu Dhabi Grand Prix,2023,22
+Red Bull,Finished,2023-11-26,Abu Dhabi Grand Prix,2023,22
+McLaren,Finished,2023-11-26,Abu Dhabi Grand Prix,2023,22
+McLaren,Finished,2023-11-26,Abu Dhabi Grand Prix,2023,22
+Aston Martin,Finished,2023-11-26,Abu Dhabi Grand Prix,2023,22
+AlphaTauri,Finished,2023-11-26,Abu Dhabi Grand Prix,2023,22
+Mercedes,Finished,2023-11-26,Abu Dhabi Grand Prix,2023,22
+Aston Martin,Finished,2023-11-26,Abu Dhabi Grand Prix,2023,22
+AlphaTauri,Finished,2023-11-26,Abu Dhabi Grand Prix,2023,22
+Alpine F1 Team,Finished,2023-11-26,Abu Dhabi Grand Prix,2023,22
+Alpine F1 Team,Finished,2023-11-26,Abu Dhabi Grand Prix,2023,22
+Williams,Finished,2023-11-26,Abu Dhabi Grand Prix,2023,22
+Haas F1 Team,Finished,2023-11-26,Abu Dhabi Grand Prix,2023,22
+Williams,Finished,2023-11-26,Abu Dhabi Grand Prix,2023,22
+Alfa Romeo,Finished,2023-11-26,Abu Dhabi Grand Prix,2023,22
+Alfa Romeo,Finished,2023-11-26,Abu Dhabi Grand Prix,2023,22
+Haas F1 Team,Finished,2023-11-26,Abu Dhabi Grand Prix,2023,22

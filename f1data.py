@@ -23,13 +23,21 @@ def getdata(startdate, enddate):
                 dftemp['year'] = year
                 dftemp['race'] = race
                 dfresult = pd.concat([dfresult, dftemp])
-                
-    dfresult = dfresult[~dfresult['status'].isin(['Did not qualify', 'Did not prequalify', 'Retired', 'Withdrew', 'Excluded'])]
+    
+    # 2 corner cases in Hybrid Era where the status is not fully correct
+    if startdate == 2014:
+        if dfresult[(dfresult['year'] == 2014) & (dfresult['circuit'] == 'Malaysian Grand Prix')].empty == False:
+            dfresult.loc[(dfresult['year'] == 2014) & (dfresult['circuit'] == 'Malaysian Grand Prix') & (dfresult['status'] == 'Technical'), 'status'] = 'Wing'
+
+        if dfresult[(dfresult['year'] == 2023) & (dfresult['circuit'] == 'Singapore Grand Prix')].empty == False:
+            dfresult.loc[(dfresult['year'] == 2023) & (dfresult['circuit'] == 'Singapore Grand Prix') & (dfresult['status'] == 'Technical'), 'status'] = 'Overheating'
+
+    dfresult = dfresult[~dfresult['status'].isin(['Did not qualify', 'Did not prequalify', 'Retired', 'Withdrew', 'Excluded', 'Mechanical'])]
 
     digroup_values = {
         'Engine': {'Injection', 'Throttle', 'Power Unit', 'Power loss'},
         'Gearbox': {'Transmission', 'Clutch'},
-        'Powertrain': {'Halfshaft', 'CV joint', 'Differential', 'Clutch', 'Driveshaft', 'Drivetrain'},
+        'Powertrain': {'Halfshaft', 'CV joint', 'Differential', 'Driveshaft', 'Drivetrain'},
         'Suspension': {'Steering', 'Handling', 'Vibrations'},
         'Electrical': {'Spark plugs', 'Battery', 'Alternator', 'Distributor', 'Ignition', 'Electronics', 'ERS'},
         'Tyre': {'Puncture', 'Wheel', 'Wheel bearing', 'Brakes', 'Wheel nut', 'Technical', 'Brake duct'},

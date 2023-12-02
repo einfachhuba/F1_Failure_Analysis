@@ -19,7 +19,6 @@ Group 1: **Engine**
 Group 2: **Gearbox**
 - Gearbox
 - Transmission
-- Clutch
 <br/>
 
 Group 3: **Turbo**
@@ -132,20 +131,20 @@ The grouping in my code is done by using a dictionary, which is defined in the f
 
 ```python
 digroup_values = {
-    'Engine':           {'Injection', 'Throttle', 'Power Unit', 'Power loss'},
-    'Gearbox':          {'Transmission', 'Clutch'},
-    'Powertrain':       {'Halfshaft', 'CV joint', 'Differential', 'Clutch', 'Driveshaft', 'Drivetrain'},
-    'Suspension':       {'Steering', 'Handling', 'Vibrations'},
-    'Electrical':       {'Spark plugs', 'Battery', 'Alternator', 'Distributor', 'Ignition', 'Electronics', 'ERS'},
-    'Tyre':             {'Puncture', 'Wheel', 'Wheel bearing', 'Brakes', 'Wheel nut', 'Technical', 'Brake duct'},
-    'Fluid systems':    {'Out of fuel', 'Fuel pump', 'Fuel leak', 'Fuel system', 'Oil leak', 'Oil pump', 'Oil pressure',
-                        'Water leak', 'Water pump', 'Hydraulics', 'Water pressure', 'Fuel pressure'},
-    'Chassis':          {'Broken wing', 'Rear wing', 'Front wing', 'Debris', 'Undertray'},
-    'Driver-related':   {'Driver unwell', 'Injured', 'Injury', 'Physical', 'Fatal accident', 'Illness', 'Seat'},
-    'Overheating':      {'Heat shield fire', 'Radiator', 'Mechanical', 'Exhaust', 'Cooling system', 'Fire'},
-    'Accident':         {'Collision', 'Spun off', 'Collision damage', 'Damage'},
-    'Finished':         {'Finisheds'}
-}
+        'Engine':           {'Injection', 'Throttle', 'Power Unit', 'Power loss'},
+        'Gearbox':          {'Transmission', 'Clutch'},
+        'Powertrain':       {'Halfshaft', 'CV joint', 'Differential', 'Driveshaft', 'Drivetrain'},
+        'Suspension':       {'Steering', 'Handling', 'Vibrations'},
+        'Electrical':       {'Spark plugs', 'Battery', 'Alternator', 'Distributor', 'Ignition', 'Electronics', 'ERS'},
+        'Tyre':             {'Puncture', 'Wheel', 'Wheel bearing', 'Brakes', 'Wheel nut', 'Technical', 'Brake duct'},
+        'Fluid systems':    {'Out of fuel', 'Fuel pump', 'Fuel leak', 'Fuel system', 'Oil leak', 'Oil pump', 'Oil pressure',
+                             'Water leak', 'Water pump', 'Hydraulics', 'Water pressure', 'Fuel pressure'},
+        'Chassis':          {'Broken wing', 'Rear wing', 'Front wing', 'Debris', 'Undertray'},
+        'Driver-related':   {'Driver unwell', 'Injured', 'Injury', 'Physical', 'Fatal accident', 'Illness', 'Seat'},
+        'Overheating':      {'Heat shield fire', 'Radiator', 'Mechanical', 'Exhaust', 'Cooling system', 'Fire'},
+        'Accident':         {'Collision', 'Spun off', 'Collision damage', 'Damage'},
+        'Finished':         {'Finisheds'}
+    }
 ```
 At the groupd "Finished" we will also include all the data where the status is something like "+1 Lap", "+2 Laps", etc. since the drivers finished the race. The dictionary is used to then filter all the data in the status column of the dataframe. This is done by using the following code:
 

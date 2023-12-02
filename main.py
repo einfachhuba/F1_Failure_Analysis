@@ -92,6 +92,7 @@ if 'p' in args:
     print('Plots saved to plots folder')
 
 if 'a' in args:
+    print('Analyzing data...')
     # get both datasets
     df_turbo = pd.read_csv(os.path.join(path,r'turbo_era.csv'))
     df_hybrid = pd.read_csv(os.path.join(path,r'hybrid_era.csv'))
@@ -207,4 +208,6 @@ if 'a' in args:
         plt.plot(df_turbo_circuit.loc[circuit].corrwith(df_hybrid_circuit.loc[circuit]), marker='o')
         plt.savefig(os.path.join(circuitpath, 'correlation_turbo_hybrid_' + str(circuit) + '.png'))
         plt.clf()
+    
+    print('Analysis done')
     
