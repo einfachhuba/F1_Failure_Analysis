@@ -96,11 +96,11 @@ Such Rules are Engine, Fuel and Chassis related, but there were also changes to 
 One of the most important non-technical riling nowadays is the "one move" defending rule. This rule was introduced to stop drivers from swerving in an attempt to block the attacking car.
 Today drivers must maintain their racing line and they are only allowed to make one change of direction while defending. If someone neglects this rule they first get a warning and after several other occourences in one race they get time penalties or they even get disqualified. [https://formulapedia.com]
 
-Another important rule is the grid penalty if an engine part is changed. This limits the amount of engine parts in a season for a team. They are only allowed to change 3 components each in a season and if they change more, then they receive a grid penalty.
-Sometimes constructors have to swap more than 1 part after the limit, then these penalties stack up. As a result of this regulation, teams tend to concentrate more on the reliability of the power unit. [https://formulapedia.com]
+Another important rule is the grid penalty if an engine part is changed. Constructors are now limited to 3 power units per car and season. If they change more, then they will be punished with a grid penalty.
+Sometimes teams are forced to swap more than 1 part, due to an accident and if they are already above the limit at those parts, then these penalties stack up. As a result of this regulation, teams tend to concentrate more on the reliability of the power unit. [https://formulapedia.com]
 
 A new race regulation is the "1 Point for fastest lap", which was introduced in 2019 so teams and drivers push for the fastest lap during races, although there are also some underlying factors, that if the driver, who has the fastest lap has to be in the top 10, else he wouldn't get the point, but with this, they still can deny points from others.
-Another new race rule was presented in the year 2021, where drivers are required to make at least one pitstop and change to another compound of tyres.
+Another new race rule was presented in the past years, where drivers are required to change to another compound of tyre during the race in dry weather. If there are wet conditions, then this rule does not apply.
 A further race ruling was adopted in the last years. This was about the overtaking line after a safety car, which is prohibited for drivers. In the new regulation, if the safety car left the track then no overtake is allowed until the start/finish line. In the past ruling, it was another line further down after the pit straight. [https://formulapedia.com]
 
 Some regulations are not well known. Such as the 107% rule, which was in effect from 1996 until 2002 and returned in 2011. The 107% rule requires each driver to set a lap time within 107% of the fastest lap time in the first qualification session to compete in the Grand Prix.
