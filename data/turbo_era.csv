@@ -1,4 +1,1152 @@
 constructor,status,date,circuit,year,race
+Wolf,Finished,1977-01-09,Argentine Grand Prix,1977,1
+Brabham,Finished,1977-01-09,Argentine Grand Prix,1977,1
+Ferrari,Finished,1977-01-09,Argentine Grand Prix,1977,1
+Fittipaldi,Finished,1977-01-09,Argentine Grand Prix,1977,1
+Team Lotus,Tyre,1977-01-09,Argentine Grand Prix,1977,1
+Ensign,Finished,1977-01-09,Argentine Grand Prix,1977,1
+Surtees,Fluid systems,1977-01-09,Argentine Grand Prix,1977,1
+March,Electrical,1977-01-09,Argentine Grand Prix,1977,1
+Shadow,Not classified,1977-01-09,Argentine Grand Prix,1977,1
+Brabham,Suspension,1977-01-09,Argentine Grand Prix,1977,1
+March,Gearbox,1977-01-09,Argentine Grand Prix,1977,1
+Ligier,Not classified,1977-01-09,Argentine Grand Prix,1977,1
+Tyrrell,Overheating,1977-01-09,Argentine Grand Prix,1977,1
+McLaren,Suspension,1977-01-09,Argentine Grand Prix,1977,1
+McLaren,Accident,1977-01-09,Argentine Grand Prix,1977,1
+Tyrrell,Accident,1977-01-09,Argentine Grand Prix,1977,1
+Fittipaldi,Engine,1977-01-09,Argentine Grand Prix,1977,1
+Ferrari,Fluid systems,1977-01-09,Argentine Grand Prix,1977,1
+Surtees,Accident,1977-01-09,Argentine Grand Prix,1977,1
+Shadow,Gearbox,1977-01-09,Argentine Grand Prix,1977,1
+Ferrari,Finished,1977-01-23,Brazilian Grand Prix,1977,2
+McLaren,Finished,1977-01-23,Brazilian Grand Prix,1977,2
+Ferrari,Finished,1977-01-23,Brazilian Grand Prix,1977,2
+Fittipaldi,Finished,1977-01-23,Brazilian Grand Prix,1977,2
+Team Lotus,Finished,1977-01-23,Brazilian Grand Prix,1977,2
+Shadow,Finished,1977-01-23,Brazilian Grand Prix,1977,2
+Fittipaldi,Finished,1977-01-23,Brazilian Grand Prix,1977,2
+Brabham,Accident,1977-01-23,Brazilian Grand Prix,1977,2
+Shadow,Engine,1977-01-23,Brazilian Grand Prix,1977,2
+Surtees,Suspension,1977-01-23,Brazilian Grand Prix,1977,2
+Brabham,Accident,1977-01-23,Brazilian Grand Prix,1977,2
+Ligier,Accident,1977-01-23,Brazilian Grand Prix,1977,2
+Tyrrell,Accident,1977-01-23,Brazilian Grand Prix,1977,2
+Team Lotus,Electrical,1977-01-23,Brazilian Grand Prix,1977,2
+March,Engine,1977-01-23,Brazilian Grand Prix,1977,2
+McLaren,Accident,1977-01-23,Brazilian Grand Prix,1977,2
+Tyrrell,Accident,1977-01-23,Brazilian Grand Prix,1977,2
+Ensign,Accident,1977-01-23,Brazilian Grand Prix,1977,2
+Surtees,Accident,1977-01-23,Brazilian Grand Prix,1977,2
+Wolf,Engine,1977-01-23,Brazilian Grand Prix,1977,2
+March,Gearbox,1977-01-23,Brazilian Grand Prix,1977,2
+BRM,Overheating,1977-01-23,Brazilian Grand Prix,1977,2
+Ferrari,Finished,1977-03-05,South African Grand Prix,1977,3
+Wolf,Finished,1977-03-05,South African Grand Prix,1977,3
+Tyrrell,Finished,1977-03-05,South African Grand Prix,1977,3
+McLaren,Finished,1977-03-05,South African Grand Prix,1977,3
+McLaren,Finished,1977-03-05,South African Grand Prix,1977,3
+Brabham,Finished,1977-03-05,South African Grand Prix,1977,3
+Surtees,Finished,1977-03-05,South African Grand Prix,1977,3
+Ferrari,Finished,1977-03-05,South African Grand Prix,1977,3
+Ensign,Finished,1977-03-05,South African Grand Prix,1977,3
+Fittipaldi,Finished,1977-03-05,South African Grand Prix,1977,3
+Surtees,Finished,1977-03-05,South African Grand Prix,1977,3
+Team Lotus,Finished,1977-03-05,South African Grand Prix,1977,3
+Brabham,Finished,1977-03-05,South African Grand Prix,1977,3
+March,Finished,1977-03-05,South African Grand Prix,1977,3
+BRM,Finished,1977-03-05,South African Grand Prix,1977,3
+March,Engine,1977-03-05,South African Grand Prix,1977,3
+March,Engine,1977-03-05,South African Grand Prix,1977,3
+Team Lotus,Accident,1977-03-05,South African Grand Prix,1977,3
+March,Gearbox,1977-03-05,South African Grand Prix,1977,3
+Ligier,Accident,1977-03-05,South African Grand Prix,1977,3
+Shadow,Accident,1977-03-05,South African Grand Prix,1977,3
+Shadow,Fluid systems,1977-03-05,South African Grand Prix,1977,3
+Tyrrell,Fluid systems,1977-03-05,South African Grand Prix,1977,3
+Team Lotus,Finished,1977-04-03,United States Grand Prix West,1977,4
+Ferrari,Finished,1977-04-03,United States Grand Prix West,1977,4
+Wolf,Finished,1977-04-03,United States Grand Prix West,1977,4
+Tyrrell,Finished,1977-04-03,United States Grand Prix West,1977,4
+Fittipaldi,Finished,1977-04-03,United States Grand Prix West,1977,4
+Penske,Finished,1977-04-03,United States Grand Prix West,1977,4
+McLaren,Finished,1977-04-03,United States Grand Prix West,1977,4
+Team Lotus,Finished,1977-04-03,United States Grand Prix West,1977,4
+Ligier,Electrical,1977-04-03,United States Grand Prix West,1977,4
+March,Finished,1977-04-03,United States Grand Prix West,1977,4
+Surtees,Finished,1977-04-03,United States Grand Prix West,1977,4
+Tyrrell,Fluid systems,1977-04-03,United States Grand Prix West,1977,4
+Ensign,Gearbox,1977-04-03,United States Grand Prix West,1977,4
+Brabham,Tyre,1977-04-03,United States Grand Prix West,1977,4
+Shadow,Gearbox,1977-04-03,United States Grand Prix West,1977,4
+McLaren,Suspension,1977-04-03,United States Grand Prix West,1977,4
+Brabham,Disqualified,1977-04-03,United States Grand Prix West,1977,4
+Shadow,Gearbox,1977-04-03,United States Grand Prix West,1977,4
+March,Gearbox,1977-04-03,United States Grand Prix West,1977,4
+Ferrari,Accident,1977-04-03,United States Grand Prix West,1977,4
+March,Accident,1977-04-03,United States Grand Prix West,1977,4
+Surtees,Accident,1977-04-03,United States Grand Prix West,1977,4
+Team Lotus,Finished,1977-05-08,Spanish Grand Prix,1977,5
+Ferrari,Finished,1977-05-08,Spanish Grand Prix,1977,5
+Wolf,Finished,1977-05-08,Spanish Grand Prix,1977,5
+McLaren,Finished,1977-05-08,Spanish Grand Prix,1977,5
+Team Lotus,Finished,1977-05-08,Spanish Grand Prix,1977,5
+Brabham,Finished,1977-05-08,Spanish Grand Prix,1977,5
+Ligier,Finished,1977-05-08,Spanish Grand Prix,1977,5
+Tyrrell,Finished,1977-05-08,Spanish Grand Prix,1977,5
+Surtees,Finished,1977-05-08,Spanish Grand Prix,1977,5
+March,Finished,1977-05-08,Spanish Grand Prix,1977,5
+March,Finished,1977-05-08,Spanish Grand Prix,1977,5
+March,Finished,1977-05-08,Spanish Grand Prix,1977,5
+McLaren,Finished,1977-05-08,Spanish Grand Prix,1977,5
+Fittipaldi,Finished,1977-05-08,Spanish Grand Prix,1977,5
+Brabham,Fluid systems,1977-05-08,Spanish Grand Prix,1977,5
+Shadow,Accident,1977-05-08,Spanish Grand Prix,1977,5
+Hesketh,Accident,1977-05-08,Spanish Grand Prix,1977,5
+Hesketh,Overheating,1977-05-08,Spanish Grand Prix,1977,5
+Shadow,Engine,1977-05-08,Spanish Grand Prix,1977,5
+March,Suspension,1977-05-08,Spanish Grand Prix,1977,5
+Tyrrell,Engine,1977-05-08,Spanish Grand Prix,1977,5
+McLaren,Engine,1977-05-08,Spanish Grand Prix,1977,5
+Ensign,Accident,1977-05-08,Spanish Grand Prix,1977,5
+Surtees,Accident,1977-05-08,Spanish Grand Prix,1977,5
+Ferrari,Driver-related,1977-05-08,Spanish Grand Prix,1977,5
+Wolf,Finished,1977-05-22,Monaco Grand Prix,1977,6
+Ferrari,Finished,1977-05-22,Monaco Grand Prix,1977,6
+Ferrari,Finished,1977-05-22,Monaco Grand Prix,1977,6
+McLaren,Finished,1977-05-22,Monaco Grand Prix,1977,6
+Team Lotus,Finished,1977-05-22,Monaco Grand Prix,1977,6
+Shadow,Finished,1977-05-22,Monaco Grand Prix,1977,6
+Ligier,Finished,1977-05-22,Monaco Grand Prix,1977,6
+Surtees,Finished,1977-05-22,Monaco Grand Prix,1977,6
+Shadow,Finished,1977-05-22,Monaco Grand Prix,1977,6
+Ensign,Finished,1977-05-22,Monaco Grand Prix,1977,6
+Penske,Finished,1977-05-22,Monaco Grand Prix,1977,6
+Hesketh,Finished,1977-05-22,Monaco Grand Prix,1977,6
+Team Lotus,Gearbox,1977-05-22,Monaco Grand Prix,1977,6
+Brabham,Gearbox,1977-05-22,Monaco Grand Prix,1977,6
+Tyrrell,Gearbox,1977-05-22,Monaco Grand Prix,1977,6
+Surtees,Fluid systems,1977-05-22,Monaco Grand Prix,1977,6
+Fittipaldi,Engine,1977-05-22,Monaco Grand Prix,1977,6
+McLaren,Engine,1977-05-22,Monaco Grand Prix,1977,6
+Brabham,Electrical,1977-05-22,Monaco Grand Prix,1977,6
+Tyrrell,Tyre,1977-05-22,Monaco Grand Prix,1977,6
+Team Lotus,Finished,1977-06-05,Belgian Grand Prix,1977,7
+Ferrari,Finished,1977-06-05,Belgian Grand Prix,1977,7
+Tyrrell,Finished,1977-06-05,Belgian Grand Prix,1977,7
+Surtees,Finished,1977-06-05,Belgian Grand Prix,1977,7
+Shadow,Finished,1977-06-05,Belgian Grand Prix,1977,7
+Brabham,Finished,1977-06-05,Belgian Grand Prix,1977,7
+McLaren,Finished,1977-06-05,Belgian Grand Prix,1977,7
+Tyrrell,Finished,1977-06-05,Belgian Grand Prix,1977,7
+Hesketh,Finished,1977-06-05,Belgian Grand Prix,1977,7
+March,Finished,1977-06-05,Belgian Grand Prix,1977,7
+Penske,Finished,1977-06-05,Belgian Grand Prix,1977,7
+Surtees,Finished,1977-06-05,Belgian Grand Prix,1977,7
+LEC,Finished,1977-06-05,Belgian Grand Prix,1977,7
+March,Finished,1977-06-05,Belgian Grand Prix,1977,7
+March,Not classified,1977-06-05,Belgian Grand Prix,1977,7
+Wolf,Engine,1977-06-05,Belgian Grand Prix,1977,7
+McLaren,Accident,1977-06-05,Belgian Grand Prix,1977,7
+Ligier,Engine,1977-06-05,Belgian Grand Prix,1977,7
+Ensign,Engine,1977-06-05,Belgian Grand Prix,1977,7
+Ferrari,Accident,1977-06-05,Belgian Grand Prix,1977,7
+Hesketh,Accident,1977-06-05,Belgian Grand Prix,1977,7
+Shadow,Accident,1977-06-05,Belgian Grand Prix,1977,7
+March,Accident,1977-06-05,Belgian Grand Prix,1977,7
+Fittipaldi,Electrical,1977-06-05,Belgian Grand Prix,1977,7
+Team Lotus,Accident,1977-06-05,Belgian Grand Prix,1977,7
+Brabham,Accident,1977-06-05,Belgian Grand Prix,1977,7
+Ligier,Finished,1977-06-19,Swedish Grand Prix,1977,8
+McLaren,Finished,1977-06-19,Swedish Grand Prix,1977,8
+Ferrari,Finished,1977-06-19,Swedish Grand Prix,1977,8
+Tyrrell,Finished,1977-06-19,Swedish Grand Prix,1977,8
+Brabham,Finished,1977-06-19,Swedish Grand Prix,1977,8
+Team Lotus,Finished,1977-06-19,Swedish Grand Prix,1977,8
+Ensign,Finished,1977-06-19,Swedish Grand Prix,1977,8
+Penske,Finished,1977-06-19,Swedish Grand Prix,1977,8
+Shadow,Finished,1977-06-19,Swedish Grand Prix,1977,8
+Brabham,Finished,1977-06-19,Swedish Grand Prix,1977,8
+McLaren,Finished,1977-06-19,Swedish Grand Prix,1977,8
+McLaren,Finished,1977-06-19,Swedish Grand Prix,1977,8
+Hesketh,Finished,1977-06-19,Swedish Grand Prix,1977,8
+LEC,Finished,1977-06-19,Swedish Grand Prix,1977,8
+March,Finished,1977-06-19,Swedish Grand Prix,1977,8
+Hesketh,Finished,1977-06-19,Swedish Grand Prix,1977,8
+Shadow,Finished,1977-06-19,Swedish Grand Prix,1977,8
+Fittipaldi,Finished,1977-06-19,Swedish Grand Prix,1977,8
+Team Lotus,Tyre,1977-06-19,Swedish Grand Prix,1977,8
+March,Gearbox,1977-06-19,Swedish Grand Prix,1977,8
+Surtees,Fluid systems,1977-06-19,Swedish Grand Prix,1977,8
+Ferrari,Suspension,1977-06-19,Swedish Grand Prix,1977,8
+Wolf,Accident,1977-06-19,Swedish Grand Prix,1977,8
+Tyrrell,Electrical,1977-06-19,Swedish Grand Prix,1977,8
+Team Lotus,Finished,1977-07-03,French Grand Prix,1977,9
+Brabham,Finished,1977-07-03,French Grand Prix,1977,9
+McLaren,Finished,1977-07-03,French Grand Prix,1977,9
+Team Lotus,Finished,1977-07-03,French Grand Prix,1977,9
+Ferrari,Finished,1977-07-03,French Grand Prix,1977,9
+Ferrari,Finished,1977-07-03,French Grand Prix,1977,9
+Ensign,Finished,1977-07-03,French Grand Prix,1977,9
+Ligier,Finished,1977-07-03,French Grand Prix,1977,9
+McLaren,Finished,1977-07-03,French Grand Prix,1977,9
+Hesketh,Finished,1977-07-03,French Grand Prix,1977,9
+Fittipaldi,Finished,1977-07-03,French Grand Prix,1977,9
+Tyrrell,Finished,1977-07-03,French Grand Prix,1977,9
+Surtees,Finished,1977-07-03,French Grand Prix,1977,9
+March,Not classified,1977-07-03,French Grand Prix,1977,9
+Wolf,Accident,1977-07-03,French Grand Prix,1977,9
+Brabham,Accident,1977-07-03,French Grand Prix,1977,9
+Shadow,Gearbox,1977-07-03,French Grand Prix,1977,9
+March,Gearbox,1977-07-03,French Grand Prix,1977,9
+Tyrrell,Accident,1977-07-03,French Grand Prix,1977,9
+Shadow,Engine,1977-07-03,French Grand Prix,1977,9
+LEC,Accident,1977-07-03,French Grand Prix,1977,9
+Penske,Accident,1977-07-03,French Grand Prix,1977,9
+McLaren,Finished,1977-07-16,British Grand Prix,1977,10
+Ferrari,Finished,1977-07-16,British Grand Prix,1977,10
+Team Lotus,Finished,1977-07-16,British Grand Prix,1977,10
+McLaren,Finished,1977-07-16,British Grand Prix,1977,10
+Brabham,Finished,1977-07-16,British Grand Prix,1977,10
+Ligier,Finished,1977-07-16,British Grand Prix,1977,10
+Shadow,Finished,1977-07-16,British Grand Prix,1977,10
+Surtees,Finished,1977-07-16,British Grand Prix,1977,10
+Penske,Finished,1977-07-16,British Grand Prix,1977,10
+March,Finished,1977-07-16,British Grand Prix,1977,10
+McLaren,Finished,1977-07-16,British Grand Prix,1977,10
+Surtees,Finished,1977-07-16,British Grand Prix,1977,10
+McLaren,Finished,1977-07-16,British Grand Prix,1977,10
+Team Lotus,Engine,1977-07-16,British Grand Prix,1977,10
+Ferrari,Finished,1977-07-16,British Grand Prix,1977,10
+Brabham,Fluid systems,1977-07-16,British Grand Prix,1977,10
+Wolf,Engine,1977-07-16,British Grand Prix,1977,10
+Fittipaldi,Engine,1977-07-16,British Grand Prix,1977,10
+March,Gearbox,1977-07-16,British Grand Prix,1977,10
+Shadow,Fluid systems,1977-07-16,British Grand Prix,1977,10
+Tyrrell,Tyre,1977-07-16,British Grand Prix,1977,10
+Renault,Turbo,1977-07-16,British Grand Prix,1977,10
+March,Accident,1977-07-16,British Grand Prix,1977,10
+Tyrrell,Engine,1977-07-16,British Grand Prix,1977,10
+Ensign,Electrical,1977-07-16,British Grand Prix,1977,10
+Hesketh,Accident,1977-07-16,British Grand Prix,1977,10
+Ferrari,Finished,1977-07-31,German Grand Prix,1977,11
+Wolf,Finished,1977-07-31,German Grand Prix,1977,11
+Brabham,Finished,1977-07-31,German Grand Prix,1977,11
+Ferrari,Finished,1977-07-31,German Grand Prix,1977,11
+Surtees,Finished,1977-07-31,German Grand Prix,1977,11
+Ensign,Finished,1977-07-31,German Grand Prix,1977,11
+Surtees,Finished,1977-07-31,German Grand Prix,1977,11
+March,Finished,1977-07-31,German Grand Prix,1977,11
+Tyrrell,Engine,1977-07-31,German Grand Prix,1977,11
+Shadow,Tyre,1977-07-31,German Grand Prix,1977,11
+Hesketh,Accident,1977-07-31,German Grand Prix,1977,11
+Team Lotus,Engine,1977-07-31,German Grand Prix,1977,11
+McLaren,Fluid systems,1977-07-31,German Grand Prix,1977,11
+Team Lotus,Engine,1977-07-31,German Grand Prix,1977,11
+McLaren,Gearbox,1977-07-31,German Grand Prix,1977,11
+Tyrrell,Engine,1977-07-31,German Grand Prix,1977,11
+Ligier,Engine,1977-07-31,German Grand Prix,1977,11
+Hesketh,Engine,1977-07-31,German Grand Prix,1977,11
+McLaren,Accident,1977-07-31,German Grand Prix,1977,11
+March,Gearbox,1977-07-31,German Grand Prix,1977,11
+Brabham,Engine,1977-07-31,German Grand Prix,1977,11
+Penske,Gearbox,1977-07-31,German Grand Prix,1977,11
+Shadow,Accident,1977-07-31,German Grand Prix,1977,11
+Shadow,Finished,1977-08-14,Austrian Grand Prix,1977,12
+Ferrari,Finished,1977-08-14,Austrian Grand Prix,1977,12
+Brabham,Finished,1977-08-14,Austrian Grand Prix,1977,12
+Ferrari,Finished,1977-08-14,Austrian Grand Prix,1977,12
+Tyrrell,Finished,1977-08-14,Austrian Grand Prix,1977,12
+McLaren,Finished,1977-08-14,Austrian Grand Prix,1977,12
+Hesketh,Finished,1977-08-14,Austrian Grand Prix,1977,12
+Brabham,Finished,1977-08-14,Austrian Grand Prix,1977,12
+March,Finished,1977-08-14,Austrian Grand Prix,1977,12
+McLaren,Finished,1977-08-14,Austrian Grand Prix,1977,12
+Fittipaldi,Finished,1977-08-14,Austrian Grand Prix,1977,12
+Penske,Finished,1977-08-14,Austrian Grand Prix,1977,12
+Tyrrell,Finished,1977-08-14,Austrian Grand Prix,1977,12
+Penske,Finished,1977-08-14,Austrian Grand Prix,1977,12
+Surtees,Finished,1977-08-14,Austrian Grand Prix,1977,12
+Surtees,Finished,1977-08-14,Austrian Grand Prix,1977,12
+McLaren,Accident,1977-08-14,Austrian Grand Prix,1977,12
+Wolf,Accident,1977-08-14,Austrian Grand Prix,1977,12
+McLaren,Engine,1977-08-14,Austrian Grand Prix,1977,12
+Ensign,Engine,1977-08-14,Austrian Grand Prix,1977,12
+Team Lotus,Engine,1977-08-14,Austrian Grand Prix,1977,12
+Shadow,Gearbox,1977-08-14,Austrian Grand Prix,1977,12
+Ligier,Fluid systems,1977-08-14,Austrian Grand Prix,1977,12
+Team Lotus,Engine,1977-08-14,Austrian Grand Prix,1977,12
+March,Accident,1977-08-14,Austrian Grand Prix,1977,12
+Ensign,Accident,1977-08-14,Austrian Grand Prix,1977,12
+Ferrari,Finished,1977-08-28,Dutch Grand Prix,1977,13
+Ligier,Finished,1977-08-28,Dutch Grand Prix,1977,13
+Wolf,Finished,1977-08-28,Dutch Grand Prix,1977,13
+Fittipaldi,Finished,1977-08-28,Dutch Grand Prix,1977,13
+Ensign,Fluid systems,1977-08-28,Dutch Grand Prix,1977,13
+Ferrari,Finished,1977-08-28,Dutch Grand Prix,1977,13
+Brabham,Finished,1977-08-28,Dutch Grand Prix,1977,13
+Penske,Finished,1977-08-28,Dutch Grand Prix,1977,13
+McLaren,Finished,1977-08-28,Dutch Grand Prix,1977,13
+March,Finished,1977-08-28,Dutch Grand Prix,1977,13
+March,Finished,1977-08-28,Dutch Grand Prix,1977,13
+Surtees,Accident,1977-08-28,Dutch Grand Prix,1977,13
+Shadow,Engine,1977-08-28,Dutch Grand Prix,1977,13
+Boro,Disqualified,1977-08-28,Dutch Grand Prix,1977,13
+Renault,Suspension,1977-08-28,Dutch Grand Prix,1977,13
+Team Lotus,Accident,1977-08-28,Dutch Grand Prix,1977,13
+Shadow,Engine,1977-08-28,Dutch Grand Prix,1977,13
+Tyrrell,Engine,1977-08-28,Dutch Grand Prix,1977,13
+Tyrrell,Electrical,1977-08-28,Dutch Grand Prix,1977,13
+Ensign,Engine,1977-08-28,Dutch Grand Prix,1977,13
+Team Lotus,Engine,1977-08-28,Dutch Grand Prix,1977,13
+Hesketh,Accident,1977-08-28,Dutch Grand Prix,1977,13
+McLaren,Accident,1977-08-28,Dutch Grand Prix,1977,13
+Penske,Electrical,1977-08-28,Dutch Grand Prix,1977,13
+Brabham,Fluid systems,1977-08-28,Dutch Grand Prix,1977,13
+McLaren,Accident,1977-08-28,Dutch Grand Prix,1977,13
+Team Lotus,Finished,1977-09-11,Italian Grand Prix,1977,14
+Ferrari,Finished,1977-09-11,Italian Grand Prix,1977,14
+Shadow,Finished,1977-09-11,Italian Grand Prix,1977,14
+McLaren,Finished,1977-09-11,Italian Grand Prix,1977,14
+Ensign,Finished,1977-09-11,Italian Grand Prix,1977,14
+Tyrrell,Finished,1977-09-11,Italian Grand Prix,1977,14
+March,Finished,1977-09-11,Italian Grand Prix,1977,14
+Ligier,Finished,1977-09-11,Italian Grand Prix,1977,14
+Hesketh,Finished,1977-09-11,Italian Grand Prix,1977,14
+March,Gearbox,1977-09-11,Italian Grand Prix,1977,14
+Ferrari,Accident,1977-09-11,Italian Grand Prix,1977,14
+Shadow,Accident,1977-09-11,Italian Grand Prix,1977,14
+McLaren,Engine,1977-09-11,Italian Grand Prix,1977,14
+Brabham,Engine,1977-09-11,Italian Grand Prix,1977,14
+McLaren,Accident,1977-09-11,Italian Grand Prix,1977,14
+Tyrrell,Engine,1977-09-11,Italian Grand Prix,1977,14
+Wolf,Engine,1977-09-11,Italian Grand Prix,1977,14
+Renault,Engine,1977-09-11,Italian Grand Prix,1977,14
+Penske,Engine,1977-09-11,Italian Grand Prix,1977,14
+Ensign,Engine,1977-09-11,Italian Grand Prix,1977,14
+Surtees,Accident,1977-09-11,Italian Grand Prix,1977,14
+Team Lotus,Suspension,1977-09-11,Italian Grand Prix,1977,14
+McLaren,Engine,1977-09-11,Italian Grand Prix,1977,14
+Brabham,Accident,1977-09-11,Italian Grand Prix,1977,14
+McLaren,Finished,1977-10-02,United States Grand Prix,1977,15
+Team Lotus,Finished,1977-10-02,United States Grand Prix,1977,15
+Wolf,Finished,1977-10-02,United States Grand Prix,1977,15
+Ferrari,Finished,1977-10-02,United States Grand Prix,1977,15
+Ensign,Finished,1977-10-02,United States Grand Prix,1977,15
+Ferrari,Finished,1977-10-02,United States Grand Prix,1977,15
+Ligier,Finished,1977-10-02,United States Grand Prix,1977,15
+Hesketh,Finished,1977-10-02,United States Grand Prix,1977,15
+Shadow,Finished,1977-10-02,United States Grand Prix,1977,15
+McLaren,Finished,1977-10-02,United States Grand Prix,1977,15
+Surtees,Finished,1977-10-02,United States Grand Prix,1977,15
+Brabham,Finished,1977-10-02,United States Grand Prix,1977,15
+Fittipaldi,Finished,1977-10-02,United States Grand Prix,1977,15
+Tyrrell,Finished,1977-10-02,United States Grand Prix,1977,15
+March,Finished,1977-10-02,United States Grand Prix,1977,15
+Tyrrell,Finished,1977-10-02,United States Grand Prix,1977,15
+Hesketh,Finished,1977-10-02,United States Grand Prix,1977,15
+March,Finished,1977-10-02,United States Grand Prix,1977,15
+Surtees,Finished,1977-10-02,United States Grand Prix,1977,15
+Renault,Electrical,1977-10-02,United States Grand Prix,1977,15
+Team Lotus,Accident,1977-10-02,United States Grand Prix,1977,15
+Brabham,Accident,1977-10-02,United States Grand Prix,1977,15
+March,Accident,1977-10-02,United States Grand Prix,1977,15
+McLaren,Fluid systems,1977-10-02,United States Grand Prix,1977,15
+Penske,Accident,1977-10-02,United States Grand Prix,1977,15
+Shadow,Accident,1977-10-02,United States Grand Prix,1977,15
+Wolf,Finished,1977-10-09,Canadian Grand Prix,1977,16
+Tyrrell,Finished,1977-10-09,Canadian Grand Prix,1977,16
+McLaren,Finished,1977-10-09,Canadian Grand Prix,1977,16
+Shadow,Finished,1977-10-09,Canadian Grand Prix,1977,16
+Ensign,Finished,1977-10-09,Canadian Grand Prix,1977,16
+Surtees,Accident,1977-10-09,Canadian Grand Prix,1977,16
+Penske,Finished,1977-10-09,Canadian Grand Prix,1977,16
+March,Finished,1977-10-09,Canadian Grand Prix,1977,16
+Team Lotus,Engine,1977-10-09,Canadian Grand Prix,1977,16
+Shadow,Accident,1977-10-09,Canadian Grand Prix,1977,16
+McLaren,Engine,1977-10-09,Canadian Grand Prix,1977,16
+Ferrari,Gearbox,1977-10-09,Canadian Grand Prix,1977,16
+McLaren,Accident,1977-10-09,Canadian Grand Prix,1977,16
+March,Engine,1977-10-09,Canadian Grand Prix,1977,16
+Tyrrell,Fluid systems,1977-10-09,Canadian Grand Prix,1977,16
+Hesketh,Accident,1977-10-09,Canadian Grand Prix,1977,16
+Surtees,Accident,1977-10-09,Canadian Grand Prix,1977,16
+March,Engine,1977-10-09,Canadian Grand Prix,1977,16
+Fittipaldi,Engine,1977-10-09,Canadian Grand Prix,1977,16
+Ferrari,Fluid systems,1977-10-09,Canadian Grand Prix,1977,16
+Brabham,Engine,1977-10-09,Canadian Grand Prix,1977,16
+Team Lotus,Accident,1977-10-09,Canadian Grand Prix,1977,16
+Ligier,Gearbox,1977-10-09,Canadian Grand Prix,1977,16
+Brabham,Suspension,1977-10-09,Canadian Grand Prix,1977,16
+Ensign,Accident,1977-10-09,Canadian Grand Prix,1977,16
+McLaren,Finished,1977-10-23,Japanese Grand Prix,1977,17
+Ferrari,Finished,1977-10-23,Japanese Grand Prix,1977,17
+Tyrrell,Finished,1977-10-23,Japanese Grand Prix,1977,17
+Shadow,Finished,1977-10-23,Japanese Grand Prix,1977,17
+Ligier,Fluid systems,1977-10-23,Japanese Grand Prix,1977,17
+Shadow,Finished,1977-10-23,Japanese Grand Prix,1977,17
+Brabham,Finished,1977-10-23,Japanese Grand Prix,1977,17
+Surtees,Finished,1977-10-23,Japanese Grand Prix,1977,17
+Tyrrell,Finished,1977-10-23,Japanese Grand Prix,1977,17
+Wolf,Finished,1977-10-23,Japanese Grand Prix,1977,17
+Kojima,Finished,1977-10-23,Japanese Grand Prix,1977,17
+March,Finished,1977-10-23,Japanese Grand Prix,1977,17
+Team Lotus,Gearbox,1977-10-23,Japanese Grand Prix,1977,17
+Ensign,Engine,1977-10-23,Japanese Grand Prix,1977,17
+Brabham,Gearbox,1977-10-23,Japanese Grand Prix,1977,17
+McLaren,Engine,1977-10-23,Japanese Grand Prix,1977,17
+Ensign,Engine,1977-10-23,Japanese Grand Prix,1977,17
+Tyrrell,Accident,1977-10-23,Japanese Grand Prix,1977,17
+Ferrari,Accident,1977-10-23,Japanese Grand Prix,1977,17
+Ligier,Engine,1977-10-23,Japanese Grand Prix,1977,17
+Team Lotus,Accident,1977-10-23,Japanese Grand Prix,1977,17
+Kojima,Accident,1977-10-23,Japanese Grand Prix,1977,17
+Surtees,Accident,1977-10-23,Japanese Grand Prix,1977,17
+Team Lotus,Finished,1978-01-15,Argentine Grand Prix,1978,1
+Brabham,Finished,1978-01-15,Argentine Grand Prix,1978,1
+Tyrrell,Finished,1978-01-15,Argentine Grand Prix,1978,1
+McLaren,Finished,1978-01-15,Argentine Grand Prix,1978,1
+Team Lotus,Finished,1978-01-15,Argentine Grand Prix,1978,1
+McLaren,Finished,1978-01-15,Argentine Grand Prix,1978,1
+Ferrari,Finished,1978-01-15,Argentine Grand Prix,1978,1
+Ferrari,Finished,1978-01-15,Argentine Grand Prix,1978,1
+Fittipaldi,Finished,1978-01-15,Argentine Grand Prix,1978,1
+Wolf,Finished,1978-01-15,Argentine Grand Prix,1978,1
+ATS,Finished,1978-01-15,Argentine Grand Prix,1978,1
+ATS,Finished,1978-01-15,Argentine Grand Prix,1978,1
+McLaren,Finished,1978-01-15,Argentine Grand Prix,1978,1
+Tyrrell,Finished,1978-01-15,Argentine Grand Prix,1978,1
+Shadow,Finished,1978-01-15,Argentine Grand Prix,1978,1
+Ligier,Engine,1978-01-15,Argentine Grand Prix,1978,1
+Shadow,Finished,1978-01-15,Argentine Grand Prix,1978,1
+Surtees,Finished,1978-01-15,Argentine Grand Prix,1978,1
+Brabham,Engine,1978-01-15,Argentine Grand Prix,1978,1
+Williams,Fluid systems,1978-01-15,Argentine Grand Prix,1978,1
+Ensign,Electrical,1978-01-15,Argentine Grand Prix,1978,1
+Ensign,Engine,1978-01-15,Argentine Grand Prix,1978,1
+Merzario,Powertrain,1978-01-15,Argentine Grand Prix,1978,1
+Surtees,Overheating,1978-01-15,Argentine Grand Prix,1978,1
+Ferrari,Finished,1978-01-29,Brazilian Grand Prix,1978,2
+Fittipaldi,Finished,1978-01-29,Brazilian Grand Prix,1978,2
+Brabham,Finished,1978-01-29,Brazilian Grand Prix,1978,2
+Team Lotus,Finished,1978-01-29,Brazilian Grand Prix,1978,2
+Shadow,Finished,1978-01-29,Brazilian Grand Prix,1978,2
+Tyrrell,Finished,1978-01-29,Brazilian Grand Prix,1978,2
+ATS,Finished,1978-01-29,Brazilian Grand Prix,1978,2
+Brabham,Finished,1978-01-29,Brazilian Grand Prix,1978,2
+Ligier,Finished,1978-01-29,Brazilian Grand Prix,1978,2
+Arrows,Finished,1978-01-29,Brazilian Grand Prix,1978,2
+Williams,Finished,1978-01-29,Brazilian Grand Prix,1978,2
+Team Lotus,Driver-related,1978-01-29,Brazilian Grand Prix,1978,2
+Ferrari,Accident,1978-01-29,Brazilian Grand Prix,1978,2
+McLaren,Accident,1978-01-29,Brazilian Grand Prix,1978,2
+McLaren,Accident,1978-01-29,Brazilian Grand Prix,1978,2
+Shadow,Fluid systems,1978-01-29,Brazilian Grand Prix,1978,2
+Wolf,Accident,1978-01-29,Brazilian Grand Prix,1978,2
+Team Lotus,Accident,1978-01-29,Brazilian Grand Prix,1978,2
+Ensign,Tyre,1978-01-29,Brazilian Grand Prix,1978,2
+McLaren,Overheating,1978-01-29,Brazilian Grand Prix,1978,2
+Tyrrell,Accident,1978-01-29,Brazilian Grand Prix,1978,2
+Surtees,Accident,1978-01-29,Brazilian Grand Prix,1978,2
+Ensign,Gearbox,1978-01-29,Brazilian Grand Prix,1978,2
+Team Lotus,Finished,1978-03-04,South African Grand Prix,1978,3
+Tyrrell,Finished,1978-03-04,South African Grand Prix,1978,3
+Brabham,Finished,1978-03-04,South African Grand Prix,1978,3
+Williams,Finished,1978-03-04,South African Grand Prix,1978,3
+Ligier,Finished,1978-03-04,South African Grand Prix,1978,3
+Tyrrell,Finished,1978-03-04,South African Grand Prix,1978,3
+Team Lotus,Finished,1978-03-04,South African Grand Prix,1978,3
+ATS,Finished,1978-03-04,South African Grand Prix,1978,3
+Arrows,Finished,1978-03-04,South African Grand Prix,1978,3
+Team Lotus,Finished,1978-03-04,South African Grand Prix,1978,3
+McLaren,Finished,1978-03-04,South African Grand Prix,1978,3
+Surtees,Finished,1978-03-04,South African Grand Prix,1978,3
+Arrows,Engine,1978-03-04,South African Grand Prix,1978,3
+Wolf,Accident,1978-03-04,South African Grand Prix,1978,3
+McLaren,Accident,1978-03-04,South African Grand Prix,1978,3
+Ferrari,Fluid systems,1978-03-04,South African Grand Prix,1978,3
+Ferrari,Accident,1978-03-04,South African Grand Prix,1978,3
+Brabham,Engine,1978-03-04,South African Grand Prix,1978,3
+Surtees,Engine,1978-03-04,South African Grand Prix,1978,3
+ATS,Engine,1978-03-04,South African Grand Prix,1978,3
+Merzario,Suspension,1978-03-04,South African Grand Prix,1978,3
+Renault,Engine,1978-03-04,South African Grand Prix,1978,3
+Theodore,Gearbox,1978-03-04,South African Grand Prix,1978,3
+Fittipaldi,Gearbox,1978-03-04,South African Grand Prix,1978,3
+Hesketh,Fluid systems,1978-03-04,South African Grand Prix,1978,3
+McLaren,Engine,1978-03-04,South African Grand Prix,1978,3
+Ferrari,Finished,1978-04-02,United States Grand Prix West,1978,4
+Team Lotus,Finished,1978-04-02,United States Grand Prix West,1978,4
+Tyrrell,Finished,1978-04-02,United States Grand Prix West,1978,4
+Team Lotus,Finished,1978-04-02,United States Grand Prix West,1978,4
+Ligier,Finished,1978-04-02,United States Grand Prix West,1978,4
+Arrows,Finished,1978-04-02,United States Grand Prix West,1978,4
+Williams,Finished,1978-04-02,United States Grand Prix West,1978,4
+Fittipaldi,Finished,1978-04-02,United States Grand Prix West,1978,4
+Arrows,Finished,1978-04-02,United States Grand Prix West,1978,4
+Shadow,Finished,1978-04-02,United States Grand Prix West,1978,4
+ATS,Finished,1978-04-02,United States Grand Prix West,1978,4
+McLaren,Accident,1978-04-02,United States Grand Prix West,1978,4
+Wolf,Accident,1978-04-02,United States Grand Prix West,1978,4
+Surtees,Gearbox,1978-04-02,United States Grand Prix West,1978,4
+Renault,Turbo,1978-04-02,United States Grand Prix West,1978,4
+Ferrari,Accident,1978-04-02,United States Grand Prix West,1978,4
+Brabham,Electrical,1978-04-02,United States Grand Prix West,1978,4
+Tyrrell,Gearbox,1978-04-02,United States Grand Prix West,1978,4
+Merzario,Gearbox,1978-04-02,United States Grand Prix West,1978,4
+ATS,Tyre,1978-04-02,United States Grand Prix West,1978,4
+Brabham,Gearbox,1978-04-02,United States Grand Prix West,1978,4
+McLaren,Accident,1978-04-02,United States Grand Prix West,1978,4
+Surtees,Accident,1978-04-02,United States Grand Prix West,1978,4
+Shadow,Accident,1978-04-02,United States Grand Prix West,1978,4
+Tyrrell,Finished,1978-05-07,Monaco Grand Prix,1978,5
+Brabham,Finished,1978-05-07,Monaco Grand Prix,1978,5
+Wolf,Finished,1978-05-07,Monaco Grand Prix,1978,5
+Brabham,Finished,1978-05-07,Monaco Grand Prix,1978,5
+Tyrrell,Finished,1978-05-07,Monaco Grand Prix,1978,5
+Arrows,Finished,1978-05-07,Monaco Grand Prix,1978,5
+McLaren,Finished,1978-05-07,Monaco Grand Prix,1978,5
+Ferrari,Finished,1978-05-07,Monaco Grand Prix,1978,5
+Fittipaldi,Finished,1978-05-07,Monaco Grand Prix,1978,5
+Renault,Finished,1978-05-07,Monaco Grand Prix,1978,5
+Team Lotus,Finished,1978-05-07,Monaco Grand Prix,1978,5
+Ferrari,Accident,1978-05-07,Monaco Grand Prix,1978,5
+Team Lotus,Gearbox,1978-05-07,Monaco Grand Prix,1978,5
+McLaren,Suspension,1978-05-07,Monaco Grand Prix,1978,5
+Arrows,Driver-related,1978-05-07,Monaco Grand Prix,1978,5
+Williams,Fluid systems,1978-05-07,Monaco Grand Prix,1978,5
+Ensign,Tyre,1978-05-07,Monaco Grand Prix,1978,5
+Shadow,Accident,1978-05-07,Monaco Grand Prix,1978,5
+Ligier,Gearbox,1978-05-07,Monaco Grand Prix,1978,5
+Surtees,Gearbox,1978-05-07,Monaco Grand Prix,1978,5
+Team Lotus,Finished,1978-05-21,Belgian Grand Prix,1978,6
+Team Lotus,Finished,1978-05-21,Belgian Grand Prix,1978,6
+Ferrari,Finished,1978-05-21,Belgian Grand Prix,1978,6
+Ferrari,Finished,1978-05-21,Belgian Grand Prix,1978,6
+Ligier,Accident,1978-05-21,Belgian Grand Prix,1978,6
+Tyrrell,Finished,1978-05-21,Belgian Grand Prix,1978,6
+McLaren,Finished,1978-05-21,Belgian Grand Prix,1978,6
+McLaren,Finished,1978-05-21,Belgian Grand Prix,1978,6
+Martini,Finished,1978-05-21,Belgian Grand Prix,1978,6
+Williams,Finished,1978-05-21,Belgian Grand Prix,1978,6
+ATS,Finished,1978-05-21,Belgian Grand Prix,1978,6
+Ensign,Finished,1978-05-21,Belgian Grand Prix,1978,6
+Surtees,Engine,1978-05-21,Belgian Grand Prix,1978,6
+Shadow,Accident,1978-05-21,Belgian Grand Prix,1978,6
+Renault,Not classified,1978-05-21,Belgian Grand Prix,1978,6
+Wolf,Accident,1978-05-21,Belgian Grand Prix,1978,6
+Tyrrell,Gearbox,1978-05-21,Belgian Grand Prix,1978,6
+Shadow,Gearbox,1978-05-21,Belgian Grand Prix,1978,6
+Arrows,Suspension,1978-05-21,Belgian Grand Prix,1978,6
+Arrows,Accident,1978-05-21,Belgian Grand Prix,1978,6
+Brabham,Accident,1978-05-21,Belgian Grand Prix,1978,6
+Brabham,Accident,1978-05-21,Belgian Grand Prix,1978,6
+McLaren,Accident,1978-05-21,Belgian Grand Prix,1978,6
+Fittipaldi,Accident,1978-05-21,Belgian Grand Prix,1978,6
+Team Lotus,Finished,1978-06-04,Spanish Grand Prix,1978,7
+Team Lotus,Finished,1978-06-04,Spanish Grand Prix,1978,7
+Ligier,Finished,1978-06-04,Spanish Grand Prix,1978,7
+Wolf,Finished,1978-06-04,Spanish Grand Prix,1978,7
+Brabham,Finished,1978-06-04,Spanish Grand Prix,1978,7
+McLaren,Finished,1978-06-04,Spanish Grand Prix,1978,7
+Surtees,Finished,1978-06-04,Spanish Grand Prix,1978,7
+Williams,Finished,1978-06-04,Spanish Grand Prix,1978,7
+ATS,Finished,1978-06-04,Spanish Grand Prix,1978,7
+Ferrari,Finished,1978-06-04,Spanish Grand Prix,1978,7
+Surtees,Finished,1978-06-04,Spanish Grand Prix,1978,7
+Tyrrell,Finished,1978-06-04,Spanish Grand Prix,1978,7
+Renault,Finished,1978-06-04,Spanish Grand Prix,1978,7
+Arrows,Finished,1978-06-04,Spanish Grand Prix,1978,7
+Shadow,Fuel pipe,1978-06-04,Spanish Grand Prix,1978,7
+Ensign,Engine,1978-06-04,Spanish Grand Prix,1978,7
+Fittipaldi,Engine,1978-06-04,Spanish Grand Prix,1978,7
+Ferrari,Accident,1978-06-04,Spanish Grand Prix,1978,7
+Brabham,Engine,1978-06-04,Spanish Grand Prix,1978,7
+Tyrrell,Engine,1978-06-04,Spanish Grand Prix,1978,7
+Shadow,Suspension,1978-06-04,Spanish Grand Prix,1978,7
+Arrows,Engine,1978-06-04,Spanish Grand Prix,1978,7
+Team Lotus,Overheating,1978-06-04,Spanish Grand Prix,1978,7
+McLaren,Accident,1978-06-04,Spanish Grand Prix,1978,7
+Brabham,Finished,1978-06-17,Swedish Grand Prix,1978,8
+Arrows,Finished,1978-06-17,Swedish Grand Prix,1978,8
+Team Lotus,Finished,1978-06-17,Swedish Grand Prix,1978,8
+McLaren,Finished,1978-06-17,Swedish Grand Prix,1978,8
+Shadow,Finished,1978-06-17,Swedish Grand Prix,1978,8
+Fittipaldi,Finished,1978-06-17,Swedish Grand Prix,1978,8
+Ligier,Finished,1978-06-17,Swedish Grand Prix,1978,8
+McLaren,Finished,1978-06-17,Swedish Grand Prix,1978,8
+Ferrari,Finished,1978-06-17,Swedish Grand Prix,1978,8
+Ferrari,Finished,1978-06-17,Swedish Grand Prix,1978,8
+Shadow,Finished,1978-06-17,Swedish Grand Prix,1978,8
+Team Lotus,Finished,1978-06-17,Swedish Grand Prix,1978,8
+ATS,Finished,1978-06-17,Swedish Grand Prix,1978,8
+Arrows,Finished,1978-06-17,Swedish Grand Prix,1978,8
+ATS,Finished,1978-06-17,Swedish Grand Prix,1978,8
+Merzario,Finished,1978-06-17,Swedish Grand Prix,1978,8
+Team Lotus,Engine,1978-06-17,Swedish Grand Prix,1978,8
+Williams,Tyre,1978-06-17,Swedish Grand Prix,1978,8
+Tyrrell,Suspension,1978-06-17,Swedish Grand Prix,1978,8
+Renault,Engine,1978-06-17,Swedish Grand Prix,1978,8
+Brabham,Accident,1978-06-17,Swedish Grand Prix,1978,8
+Wolf,Overheating,1978-06-17,Swedish Grand Prix,1978,8
+Tyrrell,Accident,1978-06-17,Swedish Grand Prix,1978,8
+Surtees,Accident,1978-06-17,Swedish Grand Prix,1978,8
+Team Lotus,Finished,1978-07-02,French Grand Prix,1978,9
+Team Lotus,Finished,1978-07-02,French Grand Prix,1978,9
+McLaren,Finished,1978-07-02,French Grand Prix,1978,9
+Brabham,Finished,1978-07-02,French Grand Prix,1978,9
+Williams,Finished,1978-07-02,French Grand Prix,1978,9
+Wolf,Finished,1978-07-02,French Grand Prix,1978,9
+Ligier,Finished,1978-07-02,French Grand Prix,1978,9
+Arrows,Finished,1978-07-02,French Grand Prix,1978,9
+McLaren,Finished,1978-07-02,French Grand Prix,1978,9
+Tyrrell,Finished,1978-07-02,French Grand Prix,1978,9
+Shadow,Finished,1978-07-02,French Grand Prix,1978,9
+Ferrari,Finished,1978-07-02,French Grand Prix,1978,9
+ATS,Finished,1978-07-02,French Grand Prix,1978,9
+Martini,Finished,1978-07-02,French Grand Prix,1978,9
+Arrows,Finished,1978-07-02,French Grand Prix,1978,9
+ATS,Finished,1978-07-02,French Grand Prix,1978,9
+Surtees,Finished,1978-07-02,French Grand Prix,1978,9
+Ferrari,Finished,1978-07-02,French Grand Prix,1978,9
+McLaren,Engine,1978-07-02,French Grand Prix,1978,9
+Fittipaldi,Suspension,1978-07-02,French Grand Prix,1978,9
+Surtees,Engine,1978-07-02,French Grand Prix,1978,9
+McLaren,Engine,1978-07-02,French Grand Prix,1978,9
+Brabham,Engine,1978-07-02,French Grand Prix,1978,9
+Tyrrell,Engine,1978-07-02,French Grand Prix,1978,9
+Shadow,Electrical,1978-07-02,French Grand Prix,1978,9
+Renault,Engine,1978-07-02,French Grand Prix,1978,9
+Ferrari,Finished,1978-07-16,British Grand Prix,1978,10
+Brabham,Finished,1978-07-16,British Grand Prix,1978,10
+Brabham,Finished,1978-07-16,British Grand Prix,1978,10
+Tyrrell,Finished,1978-07-16,British Grand Prix,1978,10
+Shadow,Finished,1978-07-16,British Grand Prix,1978,10
+McLaren,Finished,1978-07-16,British Grand Prix,1978,10
+McLaren,Finished,1978-07-16,British Grand Prix,1978,10
+McLaren,Finished,1978-07-16,British Grand Prix,1978,10
+Surtees,Finished,1978-07-16,British Grand Prix,1978,10
+Ligier,Finished,1978-07-16,British Grand Prix,1978,10
+ATS,Finished,1978-07-16,British Grand Prix,1978,10
+ATS,Suspension,1978-07-16,British Grand Prix,1978,10
+Shadow,Gearbox,1978-07-16,British Grand Prix,1978,10
+Renault,Turbo,1978-07-16,British Grand Prix,1978,10
+Arrows,Suspension,1978-07-16,British Grand Prix,1978,10
+Tyrrell,Gearbox,1978-07-16,British Grand Prix,1978,10
+Wolf,Gearbox,1978-07-16,British Grand Prix,1978,10
+Fittipaldi,Engine,1978-07-16,British Grand Prix,1978,10
+Merzario,Fluid systems,1978-07-16,British Grand Prix,1978,10
+Ensign,Tyre,1978-07-16,British Grand Prix,1978,10
+Team Lotus,Engine,1978-07-16,British Grand Prix,1978,10
+Williams,Gearbox,1978-07-16,British Grand Prix,1978,10
+Ferrari,Gearbox,1978-07-16,British Grand Prix,1978,10
+Team Lotus,Gearbox,1978-07-16,British Grand Prix,1978,10
+McLaren,Accident,1978-07-16,British Grand Prix,1978,10
+Team Lotus,Fluid systems,1978-07-16,British Grand Prix,1978,10
+Team Lotus,Finished,1978-07-30,German Grand Prix,1978,11
+Wolf,Finished,1978-07-30,German Grand Prix,1978,11
+Ligier,Finished,1978-07-30,German Grand Prix,1978,11
+Fittipaldi,Finished,1978-07-30,German Grand Prix,1978,11
+Tyrrell,Finished,1978-07-30,German Grand Prix,1978,11
+Team Lotus,Finished,1978-07-30,German Grand Prix,1978,11
+Brabham,Finished,1978-07-30,German Grand Prix,1978,11
+Ferrari,Finished,1978-07-30,German Grand Prix,1978,11
+Arrows,Finished,1978-07-30,German Grand Prix,1978,11
+Wolf,Finished,1978-07-30,German Grand Prix,1978,11
+Ensign,Engine,1978-07-30,German Grand Prix,1978,11
+Arrows,Disqualified,1978-07-30,German Grand Prix,1978,11
+Team Lotus,Gearbox,1978-07-30,German Grand Prix,1978,11
+McLaren,Disqualified,1978-07-30,German Grand Prix,1978,11
+Williams,Fluid systems,1978-07-30,German Grand Prix,1978,11
+Ensign,Engine,1978-07-30,German Grand Prix,1978,11
+Surtees,Fluid systems,1978-07-30,German Grand Prix,1978,11
+McLaren,Accident,1978-07-30,German Grand Prix,1978,11
+Ferrari,Fluid systems,1978-07-30,German Grand Prix,1978,11
+Brabham,Engine,1978-07-30,German Grand Prix,1978,11
+Renault,Engine,1978-07-30,German Grand Prix,1978,11
+ATS,Accident,1978-07-30,German Grand Prix,1978,11
+Shadow,Accident,1978-07-30,German Grand Prix,1978,11
+Tyrrell,Accident,1978-07-30,German Grand Prix,1978,11
+Team Lotus,Finished,1978-08-13,Austrian Grand Prix,1978,12
+Tyrrell,Finished,1978-08-13,Austrian Grand Prix,1978,12
+Ferrari,Finished,1978-08-13,Austrian Grand Prix,1978,12
+Fittipaldi,Finished,1978-08-13,Austrian Grand Prix,1978,12
+Ligier,Finished,1978-08-13,Austrian Grand Prix,1978,12
+Surtees,Finished,1978-08-13,Austrian Grand Prix,1978,12
+Brabham,Finished,1978-08-13,Austrian Grand Prix,1978,12
+McLaren,Finished,1978-08-13,Austrian Grand Prix,1978,12
+Martini,Finished,1978-08-13,Austrian Grand Prix,1978,12
+Shadow,Finished,1978-08-13,Austrian Grand Prix,1978,12
+Wolf,Finished,1978-08-13,Austrian Grand Prix,1978,12
+Ensign,Disqualified,1978-08-13,Austrian Grand Prix,1978,12
+McLaren,Accident,1978-08-13,Austrian Grand Prix,1978,12
+Shadow,Accident,1978-08-13,Austrian Grand Prix,1978,12
+Renault,Gearbox,1978-08-13,Austrian Grand Prix,1978,12
+Ferrari,Disqualified,1978-08-13,Austrian Grand Prix,1978,12
+Brabham,Accident,1978-08-13,Austrian Grand Prix,1978,12
+Tyrrell,Accident,1978-08-13,Austrian Grand Prix,1978,12
+McLaren,Accident,1978-08-13,Austrian Grand Prix,1978,12
+Williams,Accident,1978-08-13,Austrian Grand Prix,1978,12
+Arrows,Accident,1978-08-13,Austrian Grand Prix,1978,12
+Ensign,Accident,1978-08-13,Austrian Grand Prix,1978,12
+Team Lotus,Accident,1978-08-13,Austrian Grand Prix,1978,12
+McLaren,Accident,1978-08-13,Austrian Grand Prix,1978,12
+Wolf,Accident,1978-08-13,Austrian Grand Prix,1978,12
+Team Lotus,Accident,1978-08-13,Austrian Grand Prix,1978,12
+Team Lotus,Finished,1978-08-27,Dutch Grand Prix,1978,13
+Team Lotus,Finished,1978-08-27,Dutch Grand Prix,1978,13
+Brabham,Finished,1978-08-27,Dutch Grand Prix,1978,13
+Brabham,Finished,1978-08-27,Dutch Grand Prix,1978,13
+Fittipaldi,Finished,1978-08-27,Dutch Grand Prix,1978,13
+Ferrari,Finished,1978-08-27,Dutch Grand Prix,1978,13
+Ferrari,Finished,1978-08-27,Dutch Grand Prix,1978,13
+Ligier,Finished,1978-08-27,Dutch Grand Prix,1978,13
+McLaren,Finished,1978-08-27,Dutch Grand Prix,1978,13
+McLaren,Finished,1978-08-27,Dutch Grand Prix,1978,13
+Team Lotus,Finished,1978-08-27,Dutch Grand Prix,1978,13
+Wolf,Finished,1978-08-27,Dutch Grand Prix,1978,13
+McLaren,Accident,1978-08-27,Dutch Grand Prix,1978,13
+Shadow,Gearbox,1978-08-27,Dutch Grand Prix,1978,13
+Martini,Chassis,1978-08-27,Dutch Grand Prix,1978,13
+Merzario,Engine,1978-08-27,Dutch Grand Prix,1978,13
+Surtees,Disqualified,1978-08-27,Dutch Grand Prix,1978,13
+Renault,Engine,1978-08-27,Dutch Grand Prix,1978,13
+McLaren,Engine,1978-08-27,Dutch Grand Prix,1978,13
+Wolf,Accident,1978-08-27,Dutch Grand Prix,1978,13
+Williams,Engine,1978-08-27,Dutch Grand Prix,1978,13
+McLaren,Gearbox,1978-08-27,Dutch Grand Prix,1978,13
+Tyrrell,Engine,1978-08-27,Dutch Grand Prix,1978,13
+Ensign,Gearbox,1978-08-27,Dutch Grand Prix,1978,13
+Arrows,Accident,1978-08-27,Dutch Grand Prix,1978,13
+Tyrrell,Accident,1978-08-27,Dutch Grand Prix,1978,13
+Brabham,Finished,1978-09-10,Italian Grand Prix,1978,14
+Brabham,Finished,1978-09-10,Italian Grand Prix,1978,14
+Ferrari,Finished,1978-09-10,Italian Grand Prix,1978,14
+Ligier,Finished,1978-09-10,Italian Grand Prix,1978,14
+McLaren,Finished,1978-09-10,Italian Grand Prix,1978,14
+Team Lotus,Finished,1978-09-10,Italian Grand Prix,1978,14
+Ferrari,Finished,1978-09-10,Italian Grand Prix,1978,14
+Fittipaldi,Finished,1978-09-10,Italian Grand Prix,1978,14
+McLaren,Finished,1978-09-10,Italian Grand Prix,1978,14
+Ensign,Finished,1978-09-10,Italian Grand Prix,1978,14
+Tyrrell,Finished,1978-09-10,Italian Grand Prix,1978,14
+Wolf,Finished,1978-09-10,Italian Grand Prix,1978,14
+Williams,Finished,1978-09-10,Italian Grand Prix,1978,14
+McLaren,Finished,1978-09-10,Italian Grand Prix,1978,14
+Shadow,Finished,1978-09-10,Italian Grand Prix,1978,14
+Arrows,Engine,1978-09-10,Italian Grand Prix,1978,14
+McLaren,Electrical,1978-09-10,Italian Grand Prix,1978,14
+Merzario,Engine,1978-09-10,Italian Grand Prix,1978,14
+Renault,Engine,1978-09-10,Italian Grand Prix,1978,14
+Team Lotus,Accident,1978-09-10,Italian Grand Prix,1978,14
+Tyrrell,Accident,1978-09-10,Italian Grand Prix,1978,14
+Shadow,Accident,1978-09-10,Italian Grand Prix,1978,14
+McLaren,Accident,1978-09-10,Italian Grand Prix,1978,14
+Surtees,Accident,1978-09-10,Italian Grand Prix,1978,14
+Ferrari,Finished,1978-10-01,United States Grand Prix,1978,15
+Williams,Finished,1978-10-01,United States Grand Prix,1978,15
+Wolf,Finished,1978-10-01,United States Grand Prix,1978,15
+Renault,Finished,1978-10-01,United States Grand Prix,1978,15
+Fittipaldi,Finished,1978-10-01,United States Grand Prix,1978,15
+McLaren,Finished,1978-10-01,United States Grand Prix,1978,15
+McLaren,Finished,1978-10-01,United States Grand Prix,1978,15
+Ensign,Finished,1978-10-01,United States Grand Prix,1978,15
+Martini,Finished,1978-10-01,United States Grand Prix,1978,15
+Tyrrell,Finished,1978-10-01,United States Grand Prix,1978,15
+Ligier,Finished,1978-10-01,United States Grand Prix,1978,15
+Wolf,Finished,1978-10-01,United States Grand Prix,1978,15
+Ensign,Finished,1978-10-01,United States Grand Prix,1978,15
+Shadow,Finished,1978-10-01,United States Grand Prix,1978,15
+Team Lotus,Fluid systems,1978-10-01,United States Grand Prix,1978,15
+Arrows,Finished,1978-10-01,United States Grand Prix,1978,15
+Merzario,Gearbox,1978-10-01,United States Grand Prix,1978,15
+ATS,Fluid systems,1978-10-01,United States Grand Prix,1978,15
+Brabham,Engine,1978-10-01,United States Grand Prix,1978,15
+Team Lotus,Engine,1978-10-01,United States Grand Prix,1978,15
+Brabham,Engine,1978-10-01,United States Grand Prix,1978,15
+Tyrrell,Tyre,1978-10-01,United States Grand Prix,1978,15
+Ferrari,Engine,1978-10-01,United States Grand Prix,1978,15
+ATS,Gearbox,1978-10-01,United States Grand Prix,1978,15
+Shadow,Fluid systems,1978-10-01,United States Grand Prix,1978,15
+Team Lotus,Gearbox,1978-10-01,United States Grand Prix,1978,15
+Ferrari,Finished,1978-10-08,Canadian Grand Prix,1978,16
+Wolf,Finished,1978-10-08,Canadian Grand Prix,1978,16
+Ferrari,Finished,1978-10-08,Canadian Grand Prix,1978,16
+Arrows,Finished,1978-10-08,Canadian Grand Prix,1978,16
+Tyrrell,Finished,1978-10-08,Canadian Grand Prix,1978,16
+Ensign,Finished,1978-10-08,Canadian Grand Prix,1978,16
+Tyrrell,Finished,1978-10-08,Canadian Grand Prix,1978,16
+McLaren,Finished,1978-10-08,Canadian Grand Prix,1978,16
+Williams,Finished,1978-10-08,Canadian Grand Prix,1978,16
+Team Lotus,Finished,1978-10-08,Canadian Grand Prix,1978,16
+Brabham,Finished,1978-10-08,Canadian Grand Prix,1978,16
+Renault,Finished,1978-10-08,Canadian Grand Prix,1978,16
+ATS,Finished,1978-10-08,Canadian Grand Prix,1978,16
+Ligier,Gearbox,1978-10-08,Canadian Grand Prix,1978,16
+McLaren,Accident,1978-10-08,Canadian Grand Prix,1978,16
+Team Lotus,Fluid systems,1978-10-08,Canadian Grand Prix,1978,16
+Surtees,Engine,1978-10-08,Canadian Grand Prix,1978,16
+Wolf,Fluid systems,1978-10-08,Canadian Grand Prix,1978,16
+Brabham,Accident,1978-10-08,Canadian Grand Prix,1978,16
+Brabham,Tyre,1978-10-08,Canadian Grand Prix,1978,16
+Shadow,Accident,1978-10-08,Canadian Grand Prix,1978,16
+Fittipaldi,Accident,1978-10-08,Canadian Grand Prix,1978,16
+Ligier,Finished,1979-01-21,Argentine Grand Prix,1979,1
+Team Lotus,Finished,1979-01-21,Argentine Grand Prix,1979,1
+McLaren,Finished,1979-01-21,Argentine Grand Prix,1979,1
+Ligier,Finished,1979-01-21,Argentine Grand Prix,1979,1
+Team Lotus,Finished,1979-01-21,Argentine Grand Prix,1979,1
+Fittipaldi,Finished,1979-01-21,Argentine Grand Prix,1979,1
+Shadow,Finished,1979-01-21,Argentine Grand Prix,1979,1
+Arrows,Finished,1979-01-21,Argentine Grand Prix,1979,1
+Williams,Finished,1979-01-21,Argentine Grand Prix,1979,1
+Williams,Finished,1979-01-21,Argentine Grand Prix,1979,1
+Ensign,Finished,1979-01-21,Argentine Grand Prix,1979,1
+Ferrari,Engine,1979-01-21,Argentine Grand Prix,1979,1
+Team Lotus,Suspension,1979-01-21,Argentine Grand Prix,1979,1
+Shadow,Gearbox,1979-01-21,Argentine Grand Prix,1979,1
+Wolf,Electrical,1979-01-21,Argentine Grand Prix,1979,1
+Tyrrell,Engine,1979-01-21,Argentine Grand Prix,1979,1
+Renault,Engine,1979-01-21,Argentine Grand Prix,1979,1
+Brabham-Alfa Romeo,Fluid systems,1979-01-21,Argentine Grand Prix,1979,1
+Renault,Engine,1979-01-21,Argentine Grand Prix,1979,1
+Ferrari,Accident,1979-01-21,Argentine Grand Prix,1979,1
+Tyrrell,Accident,1979-01-21,Argentine Grand Prix,1979,1
+McLaren,Accident,1979-01-21,Argentine Grand Prix,1979,1
+Brabham-Alfa Romeo,Accident,1979-01-21,Argentine Grand Prix,1979,1
+Merzario,Accident,1979-01-21,Argentine Grand Prix,1979,1
+Arrows,Accident,1979-01-21,Argentine Grand Prix,1979,1
+Ligier,Finished,1979-02-04,Brazilian Grand Prix,1979,2
+Ligier,Finished,1979-02-04,Brazilian Grand Prix,1979,2
+Team Lotus,Finished,1979-02-04,Brazilian Grand Prix,1979,2
+Tyrrell,Finished,1979-02-04,Brazilian Grand Prix,1979,2
+Ferrari,Finished,1979-02-04,Brazilian Grand Prix,1979,2
+Ferrari,Finished,1979-02-04,Brazilian Grand Prix,1979,2
+Arrows,Finished,1979-02-04,Brazilian Grand Prix,1979,2
+McLaren,Finished,1979-02-04,Brazilian Grand Prix,1979,2
+Arrows,Finished,1979-02-04,Brazilian Grand Prix,1979,2
+Renault,Finished,1979-02-04,Brazilian Grand Prix,1979,2
+Fittipaldi,Finished,1979-02-04,Brazilian Grand Prix,1979,2
+Shadow,Finished,1979-02-04,Brazilian Grand Prix,1979,2
+Ensign,Finished,1979-02-04,Brazilian Grand Prix,1979,2
+Shadow,Finished,1979-02-04,Brazilian Grand Prix,1979,2
+Williams,Finished,1979-02-04,Brazilian Grand Prix,1979,2
+Williams,Fluid systems,1979-02-04,Brazilian Grand Prix,1979,2
+ATS,Suspension,1979-02-04,Brazilian Grand Prix,1979,2
+Renault,Accident,1979-02-04,Brazilian Grand Prix,1979,2
+Wolf,Suspension,1979-02-04,Brazilian Grand Prix,1979,2
+McLaren,Accident,1979-02-04,Brazilian Grand Prix,1979,2
+Brabham-Alfa Romeo,Gearbox,1979-02-04,Brazilian Grand Prix,1979,2
+Brabham-Alfa Romeo,Accident,1979-02-04,Brazilian Grand Prix,1979,2
+Team Lotus,Fluid systems,1979-02-04,Brazilian Grand Prix,1979,2
+Tyrrell,Electrical,1979-02-04,Brazilian Grand Prix,1979,2
+Ferrari,Finished,1979-03-03,South African Grand Prix,1979,3
+Ferrari,Finished,1979-03-03,South African Grand Prix,1979,3
+Tyrrell,Finished,1979-03-03,South African Grand Prix,1979,3
+Team Lotus,Finished,1979-03-03,South African Grand Prix,1979,3
+Team Lotus,Finished,1979-03-03,South African Grand Prix,1979,3
+Brabham-Alfa Romeo,Finished,1979-03-03,South African Grand Prix,1979,3
+Brabham-Alfa Romeo,Finished,1979-03-03,South African Grand Prix,1979,3
+Wolf,Finished,1979-03-03,South African Grand Prix,1979,3
+Williams,Finished,1979-03-03,South African Grand Prix,1979,3
+McLaren,Finished,1979-03-03,South African Grand Prix,1979,3
+Arrows,Finished,1979-03-03,South African Grand Prix,1979,3
+Arrows,Finished,1979-03-03,South African Grand Prix,1979,3
+Fittipaldi,Finished,1979-03-03,South African Grand Prix,1979,3
+Team Lotus,Engine,1979-03-03,South African Grand Prix,1979,3
+Renault,Tyre,1979-03-03,South African Grand Prix,1979,3
+Williams,Suspension,1979-03-03,South African Grand Prix,1979,3
+McLaren,Electrical,1979-03-03,South African Grand Prix,1979,3
+ATS,Accident,1979-03-03,South African Grand Prix,1979,3
+Renault,Engine,1979-03-03,South African Grand Prix,1979,3
+Ligier,Accident,1979-03-03,South African Grand Prix,1979,3
+Tyrrell,Engine,1979-03-03,South African Grand Prix,1979,3
+Shadow,Accident,1979-03-03,South African Grand Prix,1979,3
+Ligier,Accident,1979-03-03,South African Grand Prix,1979,3
+Shadow,Accident,1979-03-03,South African Grand Prix,1979,3
+Ferrari,Finished,1979-04-08,United States Grand Prix West,1979,4
+Ferrari,Finished,1979-04-08,United States Grand Prix West,1979,4
+Williams,Finished,1979-04-08,United States Grand Prix West,1979,4
+Team Lotus,Finished,1979-04-08,United States Grand Prix West,1979,4
+Ligier,Finished,1979-04-08,United States Grand Prix West,1979,4
+Tyrrell,Finished,1979-04-08,United States Grand Prix West,1979,4
+Shadow,Finished,1979-04-08,United States Grand Prix West,1979,4
+Brabham-Alfa Romeo,Finished,1979-04-08,United States Grand Prix West,1979,4
+Arrows,Finished,1979-04-08,United States Grand Prix West,1979,4
+Tyrrell,Disqualified,1979-04-08,United States Grand Prix West,1979,4
+Team Lotus,Accident,1979-04-08,United States Grand Prix West,1979,4
+Ensign,Accident,1979-04-08,United States Grand Prix West,1979,4
+McLaren,Engine,1979-04-08,United States Grand Prix West,1979,4
+ATS,Disqualified,1979-04-08,United States Grand Prix West,1979,4
+Williams,Engine,1979-04-08,United States Grand Prix West,1979,4
+Shadow,Suspension,1979-04-08,United States Grand Prix West,1979,4
+Arrows,Tyre,1979-04-08,United States Grand Prix West,1979,4
+Team Lotus,Gearbox,1979-04-08,United States Grand Prix West,1979,4
+Fittipaldi,Gearbox,1979-04-08,United States Grand Prix West,1979,4
+Merzario,Engine,1979-04-08,United States Grand Prix West,1979,4
+Ligier,Tyre,1979-04-08,United States Grand Prix West,1979,4
+Wolf,Gearbox,1979-04-08,United States Grand Prix West,1979,4
+Brabham-Alfa Romeo,Accident,1979-04-08,United States Grand Prix West,1979,4
+McLaren,Accident,1979-04-08,United States Grand Prix West,1979,4
+Ligier,Finished,1979-04-29,Spanish Grand Prix,1979,5
+Team Lotus,Finished,1979-04-29,Spanish Grand Prix,1979,5
+Team Lotus,Finished,1979-04-29,Spanish Grand Prix,1979,5
+Ferrari,Finished,1979-04-29,Spanish Grand Prix,1979,5
+Tyrrell,Finished,1979-04-29,Spanish Grand Prix,1979,5
+Tyrrell,Finished,1979-04-29,Spanish Grand Prix,1979,5
+Ferrari,Finished,1979-04-29,Spanish Grand Prix,1979,5
+Arrows,Finished,1979-04-29,Spanish Grand Prix,1979,5
+Renault,Finished,1979-04-29,Spanish Grand Prix,1979,5
+Arrows,Finished,1979-04-29,Spanish Grand Prix,1979,5
+Fittipaldi,Finished,1979-04-29,Spanish Grand Prix,1979,5
+Shadow,Finished,1979-04-29,Spanish Grand Prix,1979,5
+McLaren,Finished,1979-04-29,Spanish Grand Prix,1979,5
+ATS,Finished,1979-04-29,Spanish Grand Prix,1979,5
+Brabham-Alfa Romeo,Fluid systems,1979-04-29,Spanish Grand Prix,1979,5
+Team Lotus,Engine,1979-04-29,Spanish Grand Prix,1979,5
+Williams,Gearbox,1979-04-29,Spanish Grand Prix,1979,5
+Shadow,Engine,1979-04-29,Spanish Grand Prix,1979,5
+Williams,Engine,1979-04-29,Spanish Grand Prix,1979,5
+Wolf,Tyre,1979-04-29,Spanish Grand Prix,1979,5
+Renault,Turbo,1979-04-29,Spanish Grand Prix,1979,5
+McLaren,Engine,1979-04-29,Spanish Grand Prix,1979,5
+Ligier,Engine,1979-04-29,Spanish Grand Prix,1979,5
+Brabham-Alfa Romeo,Engine,1979-04-29,Spanish Grand Prix,1979,5
+Ferrari,Finished,1979-05-13,Belgian Grand Prix,1979,6
+Ligier,Finished,1979-05-13,Belgian Grand Prix,1979,6
+Tyrrell,Finished,1979-05-13,Belgian Grand Prix,1979,6
+Team Lotus,Finished,1979-05-13,Belgian Grand Prix,1979,6
+Arrows,Finished,1979-05-13,Belgian Grand Prix,1979,6
+McLaren,Finished,1979-05-13,Belgian Grand Prix,1979,6
+Ferrari,Finished,1979-05-13,Belgian Grand Prix,1979,6
+ATS,Finished,1979-05-13,Belgian Grand Prix,1979,6
+Fittipaldi,Finished,1979-05-13,Belgian Grand Prix,1979,6
+Shadow,Finished,1979-05-13,Belgian Grand Prix,1979,6
+Tyrrell,Finished,1979-05-13,Belgian Grand Prix,1979,6
+Ligier,Accident,1979-05-13,Belgian Grand Prix,1979,6
+Wolf,Accident,1979-05-13,Belgian Grand Prix,1979,6
+Williams,Electrical,1979-05-13,Belgian Grand Prix,1979,6
+Team Lotus,Tyre,1979-05-13,Belgian Grand Prix,1979,6
+Brabham-Alfa Romeo,Engine,1979-05-13,Belgian Grand Prix,1979,6
+Brabham-Alfa Romeo,Engine,1979-05-13,Belgian Grand Prix,1979,6
+Renault,Turbo,1979-05-13,Belgian Grand Prix,1979,6
+Alfa Romeo,Accident,1979-05-13,Belgian Grand Prix,1979,6
+Shadow,Accident,1979-05-13,Belgian Grand Prix,1979,6
+Arrows,Accident,1979-05-13,Belgian Grand Prix,1979,6
+Team Lotus,Gearbox,1979-05-13,Belgian Grand Prix,1979,6
+Renault,Turbo,1979-05-13,Belgian Grand Prix,1979,6
+Williams,Accident,1979-05-13,Belgian Grand Prix,1979,6
+Ferrari,Finished,1979-05-27,Monaco Grand Prix,1979,7
+Williams,Finished,1979-05-27,Monaco Grand Prix,1979,7
+Team Lotus,Finished,1979-05-27,Monaco Grand Prix,1979,7
+McLaren,Finished,1979-05-27,Monaco Grand Prix,1979,7
+Ligier,Engine,1979-05-27,Monaco Grand Prix,1979,7
+Arrows,Finished,1979-05-27,Monaco Grand Prix,1979,7
+Brabham-Alfa Romeo,Gearbox,1979-05-27,Monaco Grand Prix,1979,7
+Renault,Finished,1979-05-27,Monaco Grand Prix,1979,7
+Ligier,Gearbox,1979-05-27,Monaco Grand Prix,1979,7
+Ferrari,Gearbox,1979-05-27,Monaco Grand Prix,1979,7
+Williams,Suspension,1979-05-27,Monaco Grand Prix,1979,7
+Tyrrell,Suspension,1979-05-27,Monaco Grand Prix,1979,7
+ATS,Tyre,1979-05-27,Monaco Grand Prix,1979,7
+Brabham-Alfa Romeo,Accident,1979-05-27,Monaco Grand Prix,1979,7
+Tyrrell,Accident,1979-05-27,Monaco Grand Prix,1979,7
+Team Lotus,Suspension,1979-05-27,Monaco Grand Prix,1979,7
+Fittipaldi,Engine,1979-05-27,Monaco Grand Prix,1979,7
+Renault,Accident,1979-05-27,Monaco Grand Prix,1979,7
+Wolf,Gearbox,1979-05-27,Monaco Grand Prix,1979,7
+Arrows,Suspension,1979-05-27,Monaco Grand Prix,1979,7
+Renault,Finished,1979-07-01,French Grand Prix,1979,8
+Ferrari,Finished,1979-07-01,French Grand Prix,1979,8
+Renault,Finished,1979-07-01,French Grand Prix,1979,8
+Williams,Finished,1979-07-01,French Grand Prix,1979,8
+Tyrrell,Finished,1979-07-01,French Grand Prix,1979,8
+Williams,Finished,1979-07-01,French Grand Prix,1979,8
+Ferrari,Finished,1979-07-01,French Grand Prix,1979,8
+Ligier,Finished,1979-07-01,French Grand Prix,1979,8
+Wolf,Finished,1979-07-01,French Grand Prix,1979,8
+McLaren,Finished,1979-07-01,French Grand Prix,1979,8
+McLaren,Finished,1979-07-01,French Grand Prix,1979,8
+Team Lotus,Finished,1979-07-01,French Grand Prix,1979,8
+Team Lotus,Finished,1979-07-01,French Grand Prix,1979,8
+Arrows,Finished,1979-07-01,French Grand Prix,1979,8
+Arrows,Finished,1979-07-01,French Grand Prix,1979,8
+Shadow,Finished,1979-07-01,French Grand Prix,1979,8
+Alfa Romeo,Finished,1979-07-01,French Grand Prix,1979,8
+Shadow,Finished,1979-07-01,French Grand Prix,1979,8
+Tyrrell,Suspension,1979-07-01,French Grand Prix,1979,8
+Fittipaldi,Engine,1979-07-01,French Grand Prix,1979,8
+Brabham-Alfa Romeo,Accident,1979-07-01,French Grand Prix,1979,8
+Team Lotus,Tyre,1979-07-01,French Grand Prix,1979,8
+Ligier,Engine,1979-07-01,French Grand Prix,1979,8
+Brabham-Alfa Romeo,Accident,1979-07-01,French Grand Prix,1979,8
+Williams,Finished,1979-07-14,British Grand Prix,1979,9
+Renault,Finished,1979-07-14,British Grand Prix,1979,9
+Tyrrell,Finished,1979-07-14,British Grand Prix,1979,9
+McLaren,Finished,1979-07-14,British Grand Prix,1979,9
+Ferrari,Finished,1979-07-14,British Grand Prix,1979,9
+Ligier,Finished,1979-07-14,British Grand Prix,1979,9
+McLaren,Fluid systems,1979-07-14,British Grand Prix,1979,9
+Team Lotus,Finished,1979-07-14,British Grand Prix,1979,9
+Team Lotus,Finished,1979-07-14,British Grand Prix,1979,9
+Tyrrell,Finished,1979-07-14,British Grand Prix,1979,9
+Shadow,Finished,1979-07-14,British Grand Prix,1979,9
+Shadow,Finished,1979-07-14,British Grand Prix,1979,9
+Ensign,Finished,1979-07-14,British Grand Prix,1979,9
+Ferrari,Fluid systems,1979-07-14,British Grand Prix,1979,9
+Arrows,Gearbox,1979-07-14,British Grand Prix,1979,9
+Ligier,Engine,1979-07-14,British Grand Prix,1979,9
+Wolf,Fluid systems,1979-07-14,British Grand Prix,1979,9
+Williams,Fluid systems,1979-07-14,British Grand Prix,1979,9
+Arrows,Gearbox,1979-07-14,British Grand Prix,1979,9
+Fittipaldi,Engine,1979-07-14,British Grand Prix,1979,9
+Renault,Turbo,1979-07-14,British Grand Prix,1979,9
+Brabham-Alfa Romeo,Tyre,1979-07-14,British Grand Prix,1979,9
+Team Lotus,Tyre,1979-07-14,British Grand Prix,1979,9
+Brabham-Alfa Romeo,Accident,1979-07-14,British Grand Prix,1979,9
+Williams,Finished,1979-07-29,German Grand Prix,1979,10
+Williams,Finished,1979-07-29,German Grand Prix,1979,10
+Ligier,Finished,1979-07-29,German Grand Prix,1979,10
+Ferrari,Finished,1979-07-29,German Grand Prix,1979,10
+McLaren,Finished,1979-07-29,German Grand Prix,1979,10
+Arrows,Finished,1979-07-29,German Grand Prix,1979,10
+Tyrrell,Finished,1979-07-29,German Grand Prix,1979,10
+Ferrari,Finished,1979-07-29,German Grand Prix,1979,10
+Tyrrell,Finished,1979-07-29,German Grand Prix,1979,10
+Shadow,Finished,1979-07-29,German Grand Prix,1979,10
+Shadow,Finished,1979-07-29,German Grand Prix,1979,10
+Brabham-Alfa Romeo,Engine,1979-07-29,German Grand Prix,1979,10
+Arrows,Tyre,1979-07-29,German Grand Prix,1979,10
+McLaren,Suspension,1979-07-29,German Grand Prix,1979,10
+Wolf,Engine,1979-07-29,German Grand Prix,1979,10
+Brabham-Alfa Romeo,Engine,1979-07-29,German Grand Prix,1979,10
+Ligier,Tyre,1979-07-29,German Grand Prix,1979,10
+Team Lotus,Suspension,1979-07-29,German Grand Prix,1979,10
+Team Lotus,Gearbox,1979-07-29,German Grand Prix,1979,10
+Renault,Tyre,1979-07-29,German Grand Prix,1979,10
+Renault,Accident,1979-07-29,German Grand Prix,1979,10
+Fittipaldi,Electrical,1979-07-29,German Grand Prix,1979,10
+Team Lotus,Accident,1979-07-29,German Grand Prix,1979,10
+ATS,Suspension,1979-07-29,German Grand Prix,1979,10
+Williams,Finished,1979-08-12,Austrian Grand Prix,1979,11
+Ferrari,Finished,1979-08-12,Austrian Grand Prix,1979,11
+Ligier,Finished,1979-08-12,Austrian Grand Prix,1979,11
+Ferrari,Finished,1979-08-12,Austrian Grand Prix,1979,11
+Williams,Finished,1979-08-12,Austrian Grand Prix,1979,11
+Renault,Finished,1979-08-12,Austrian Grand Prix,1979,11
+Tyrrell,Finished,1979-08-12,Austrian Grand Prix,1979,11
+Tyrrell,Finished,1979-08-12,Austrian Grand Prix,1979,11
+McLaren,Finished,1979-08-12,Austrian Grand Prix,1979,11
+McLaren,Finished,1979-08-12,Austrian Grand Prix,1979,11
+Brabham-Alfa Romeo,Engine,1979-08-12,Austrian Grand Prix,1979,11
+Ensign,Suspension,1979-08-12,Austrian Grand Prix,1979,11
+Arrows,Suspension,1979-08-12,Austrian Grand Prix,1979,11
+Shadow,Engine,1979-08-12,Austrian Grand Prix,1979,11
+Brabham-Alfa Romeo,Engine,1979-08-12,Austrian Grand Prix,1979,11
+ATS,Engine,1979-08-12,Austrian Grand Prix,1979,11
+Ligier,Engine,1979-08-12,Austrian Grand Prix,1979,11
+Team Lotus,Suspension,1979-08-12,Austrian Grand Prix,1979,11
+Renault,Gearbox,1979-08-12,Austrian Grand Prix,1979,11
+Wolf,Electrical,1979-08-12,Austrian Grand Prix,1979,11
+Fittipaldi,Tyre,1979-08-12,Austrian Grand Prix,1979,11
+Shadow,Accident,1979-08-12,Austrian Grand Prix,1979,11
+Arrows,Engine,1979-08-12,Austrian Grand Prix,1979,11
+Team Lotus,Gearbox,1979-08-12,Austrian Grand Prix,1979,11
+Williams,Finished,1979-08-26,Dutch Grand Prix,1979,12
+Ferrari,Finished,1979-08-26,Dutch Grand Prix,1979,12
+Ligier,Finished,1979-08-26,Dutch Grand Prix,1979,12
+Brabham-Alfa Romeo,Finished,1979-08-26,Dutch Grand Prix,1979,12
+Ligier,Finished,1979-08-26,Dutch Grand Prix,1979,12
+Arrows,Finished,1979-08-26,Dutch Grand Prix,1979,12
+Team Lotus,Finished,1979-08-26,Dutch Grand Prix,1979,12
+Tyrrell,Suspension,1979-08-26,Dutch Grand Prix,1979,12
+Ferrari,Tyre,1979-08-26,Dutch Grand Prix,1979,12
+Shadow,Gearbox,1979-08-26,Dutch Grand Prix,1979,12
+Wolf,Engine,1979-08-26,Dutch Grand Prix,1979,12
+Renault,Gearbox,1979-08-26,Dutch Grand Prix,1979,12
+McLaren,Engine,1979-08-26,Dutch Grand Prix,1979,12
+Tyrrell,Accident,1979-08-26,Dutch Grand Prix,1979,12
+ATS,Gearbox,1979-08-26,Dutch Grand Prix,1979,12
+Shadow,Gearbox,1979-08-26,Dutch Grand Prix,1979,12
+Team Lotus,Suspension,1979-08-26,Dutch Grand Prix,1979,12
+Arrows,Tyre,1979-08-26,Dutch Grand Prix,1979,12
+McLaren,Engine,1979-08-26,Dutch Grand Prix,1979,12
+Fittipaldi,Electrical,1979-08-26,Dutch Grand Prix,1979,12
+Team Lotus,Suspension,1979-08-26,Dutch Grand Prix,1979,12
+Renault,Suspension,1979-08-26,Dutch Grand Prix,1979,12
+Williams,Accident,1979-08-26,Dutch Grand Prix,1979,12
+Ferrari,Finished,1979-09-09,Italian Grand Prix,1979,13
+Ferrari,Finished,1979-09-09,Italian Grand Prix,1979,13
+Williams,Finished,1979-09-09,Italian Grand Prix,1979,13
+Brabham-Alfa Romeo,Finished,1979-09-09,Italian Grand Prix,1979,13
+Team Lotus,Finished,1979-09-09,Italian Grand Prix,1979,13
+Tyrrell,Finished,1979-09-09,Italian Grand Prix,1979,13
+Team Lotus,Finished,1979-09-09,Italian Grand Prix,1979,13
+Fittipaldi,Finished,1979-09-09,Italian Grand Prix,1979,13
+Williams,Finished,1979-09-09,Italian Grand Prix,1979,13
+Tyrrell,Finished,1979-09-09,Italian Grand Prix,1979,13
+ATS,Finished,1979-09-09,Italian Grand Prix,1979,13
+Alfa Romeo,Finished,1979-09-09,Italian Grand Prix,1979,13
+Arrows,Finished,1979-09-09,Italian Grand Prix,1979,13
+Renault,Engine,1979-09-09,Italian Grand Prix,1979,13
+Ligier,Engine,1979-09-09,Italian Grand Prix,1979,13
+Wolf,Engine,1979-09-09,Italian Grand Prix,1979,13
+Ligier,Engine,1979-09-09,Italian Grand Prix,1979,13
+Shadow,Gearbox,1979-09-09,Italian Grand Prix,1979,13
+Alfa Romeo,Accident,1979-09-09,Italian Grand Prix,1979,13
+Renault,Engine,1979-09-09,Italian Grand Prix,1979,13
+McLaren,Accident,1979-09-09,Italian Grand Prix,1979,13
+McLaren,Engine,1979-09-09,Italian Grand Prix,1979,13
+Arrows,Suspension,1979-09-09,Italian Grand Prix,1979,13
+Brabham-Alfa Romeo,Accident,1979-09-09,Italian Grand Prix,1979,13
+Williams,Finished,1979-09-30,Canadian Grand Prix,1979,14
+Ferrari,Finished,1979-09-30,Canadian Grand Prix,1979,14
+Williams,Finished,1979-09-30,Canadian Grand Prix,1979,14
+Ferrari,Finished,1979-09-30,Canadian Grand Prix,1979,14
+Tyrrell,Finished,1979-09-30,Canadian Grand Prix,1979,14
+McLaren,Finished,1979-09-30,Canadian Grand Prix,1979,14
+Brabham-Ford,Finished,1979-09-30,Canadian Grand Prix,1979,14
+Fittipaldi,Finished,1979-09-30,Canadian Grand Prix,1979,14
+Shadow,Finished,1979-09-30,Canadian Grand Prix,1979,14
+Team Lotus,Fluid systems,1979-09-30,Canadian Grand Prix,1979,14
+Brabham-Ford,Gearbox,1979-09-30,Canadian Grand Prix,1979,14
+Alfa Romeo,Fluid systems,1979-09-30,Canadian Grand Prix,1979,14
+Ligier,Gearbox,1979-09-30,Canadian Grand Prix,1979,14
+Tyrrell,Engine,1979-09-30,Canadian Grand Prix,1979,14
+Tyrrell,Engine,1979-09-30,Canadian Grand Prix,1979,14
+Rebaque,Chassis,1979-09-30,Canadian Grand Prix,1979,14
+Renault,Tyre,1979-09-30,Canadian Grand Prix,1979,14
+Shadow,Electrical,1979-09-30,Canadian Grand Prix,1979,14
+Team Lotus,Suspension,1979-09-30,Canadian Grand Prix,1979,14
+Arrows,Accident,1979-09-30,Canadian Grand Prix,1979,14
+McLaren,Engine,1979-09-30,Canadian Grand Prix,1979,14
+Renault,Accident,1979-09-30,Canadian Grand Prix,1979,14
+ATS,Accident,1979-09-30,Canadian Grand Prix,1979,14
+Ligier,Engine,1979-09-30,Canadian Grand Prix,1979,14
+Ferrari,Finished,1979-10-07,United States Grand Prix,1979,15
+Renault,Finished,1979-10-07,United States Grand Prix,1979,15
+Tyrrell,Finished,1979-10-07,United States Grand Prix,1979,15
+Shadow,Finished,1979-10-07,United States Grand Prix,1979,15
+ATS,Finished,1979-10-07,United States Grand Prix,1979,15
+McLaren,Finished,1979-10-07,United States Grand Prix,1979,15
+Fittipaldi,Finished,1979-10-07,United States Grand Prix,1979,15
+Brabham-Ford,Gearbox,1979-10-07,United States Grand Prix,1979,15
+Tyrrell,Accident,1979-10-07,United States Grand Prix,1979,15
+Ferrari,Tyre,1979-10-07,United States Grand Prix,1979,15
+Arrows,Suspension,1979-10-07,United States Grand Prix,1979,15
+Williams,Tyre,1979-10-07,United States Grand Prix,1979,15
+Ensign,Engine,1979-10-07,United States Grand Prix,1979,15
+Williams,Accident,1979-10-07,United States Grand Prix,1979,15
+Brabham-Ford,Accident,1979-10-07,United States Grand Prix,1979,15
+Renault,Engine,1979-10-07,United States Grand Prix,1979,15
+Wolf,Accident,1979-10-07,United States Grand Prix,1979,15
+McLaren,Engine,1979-10-07,United States Grand Prix,1979,15
+Tyrrell,Accident,1979-10-07,United States Grand Prix,1979,15
+Team Lotus,Gearbox,1979-10-07,United States Grand Prix,1979,15
+Team Lotus,Accident,1979-10-07,United States Grand Prix,1979,15
+Ligier,Accident,1979-10-07,United States Grand Prix,1979,15
+Ligier,Accident,1979-10-07,United States Grand Prix,1979,15
+Alfa Romeo,Accident,1979-10-07,United States Grand Prix,1979,15
 Williams,Finished,1980-01-13,Argentine Grand Prix,1980,1
 Brabham,Finished,1980-01-13,Argentine Grand Prix,1980,1
 Fittipaldi,Finished,1980-01-13,Argentine Grand Prix,1980,1
@@ -3509,420 +4657,3 @@ Ligier,Accident,1988-11-13,Australian Grand Prix,1988,16
 Tyrrell,Gearbox,1988-11-13,Australian Grand Prix,1988,16
 Euro Brun,Powertrain,1988-11-13,Australian Grand Prix,1988,16
 Ferrari,Accident,1988-11-13,Australian Grand Prix,1988,16
-Ferrari,Finished,1989-03-26,Brazilian Grand Prix,1989,1
-McLaren,Finished,1989-03-26,Brazilian Grand Prix,1989,1
-March,Finished,1989-03-26,Brazilian Grand Prix,1989,1
-Benetton,Finished,1989-03-26,Brazilian Grand Prix,1989,1
-Arrows,Finished,1989-03-26,Brazilian Grand Prix,1989,1
-Benetton,Finished,1989-03-26,Brazilian Grand Prix,1989,1
-Tyrrell,Finished,1989-03-26,Brazilian Grand Prix,1989,1
-Team Lotus,Finished,1989-03-26,Brazilian Grand Prix,1989,1
-Ligier,Finished,1989-03-26,Brazilian Grand Prix,1989,1
-Tyrrell,Finished,1989-03-26,Brazilian Grand Prix,1989,1
-McLaren,Finished,1989-03-26,Brazilian Grand Prix,1989,1
-Larrousse,Finished,1989-03-26,Brazilian Grand Prix,1989,1
-Dallara,Finished,1989-03-26,Brazilian Grand Prix,1989,1
-Rial,Finished,1989-03-26,Brazilian Grand Prix,1989,1
-Williams,Electrical,1989-03-26,Brazilian Grand Prix,1989,1
-Arrows,Accident,1989-03-26,Brazilian Grand Prix,1989,1
-Zakspeed,Accident,1989-03-26,Brazilian Grand Prix,1989,1
-Brabham,Powertrain,1989-03-26,Brazilian Grand Prix,1989,1
-March,Suspension,1989-03-26,Brazilian Grand Prix,1989,1
-Team Lotus,Fluid systems,1989-03-26,Brazilian Grand Prix,1989,1
-Osella,Disqualified,1989-03-26,Brazilian Grand Prix,1989,1
-Brabham,Powertrain,1989-03-26,Brazilian Grand Prix,1989,1
-Williams,Engine,1989-03-26,Brazilian Grand Prix,1989,1
-Minardi,Chassis,1989-03-26,Brazilian Grand Prix,1989,1
-Ferrari,Accident,1989-03-26,Brazilian Grand Prix,1989,1
-Minardi,Accident,1989-03-26,Brazilian Grand Prix,1989,1
-McLaren,Finished,1989-04-23,San Marino Grand Prix,1989,2
-McLaren,Finished,1989-04-23,San Marino Grand Prix,1989,2
-Benetton,Finished,1989-04-23,San Marino Grand Prix,1989,2
-Williams,Finished,1989-04-23,San Marino Grand Prix,1989,2
-Arrows,Finished,1989-04-23,San Marino Grand Prix,1989,2
-Tyrrell,Finished,1989-04-23,San Marino Grand Prix,1989,2
-Dallara,Finished,1989-04-23,San Marino Grand Prix,1989,2
-AGS,Finished,1989-04-23,San Marino Grand Prix,1989,2
-Arrows,Finished,1989-04-23,San Marino Grand Prix,1989,2
-Dallara,Finished,1989-04-23,San Marino Grand Prix,1989,2
-Benetton,Finished,1989-04-23,San Marino Grand Prix,1989,2
-Osella,Accident,1989-04-23,San Marino Grand Prix,1989,2
-Brabham,Fluid systems,1989-04-23,San Marino Grand Prix,1989,2
-Team Lotus,Not classified,1989-04-23,San Marino Grand Prix,1989,2
-Minardi,Accident,1989-04-23,San Marino Grand Prix,1989,2
-March,Gearbox,1989-04-23,San Marino Grand Prix,1989,2
-Team Lotus,Engine,1989-04-23,San Marino Grand Prix,1989,2
-Ferrari,Gearbox,1989-04-23,San Marino Grand Prix,1989,2
-Williams,Engine,1989-04-23,San Marino Grand Prix,1989,2
-Brabham,Accident,1989-04-23,San Marino Grand Prix,1989,2
-Minardi,Gearbox,1989-04-23,San Marino Grand Prix,1989,2
-Ligier,Disqualified,1989-04-23,San Marino Grand Prix,1989,2
-Ferrari,Accident,1989-04-23,San Marino Grand Prix,1989,2
-March,Accident,1989-04-23,San Marino Grand Prix,1989,2
-Larrousse,Electrical,1989-04-23,San Marino Grand Prix,1989,2
-Larrousse,Electrical,1989-04-23,San Marino Grand Prix,1989,2
-McLaren,Finished,1989-05-07,Monaco Grand Prix,1989,3
-McLaren,Finished,1989-05-07,Monaco Grand Prix,1989,3
-Brabham,Finished,1989-05-07,Monaco Grand Prix,1989,3
-Dallara,Finished,1989-05-07,Monaco Grand Prix,1989,3
-Tyrrell,Finished,1989-05-07,Monaco Grand Prix,1989,3
-Brabham,Finished,1989-05-07,Monaco Grand Prix,1989,3
-Arrows,Finished,1989-05-07,Monaco Grand Prix,1989,3
-Benetton,Finished,1989-05-07,Monaco Grand Prix,1989,3
-Tyrrell,Finished,1989-05-07,Monaco Grand Prix,1989,3
-Williams,Finished,1989-05-07,Monaco Grand Prix,1989,3
-March,Finished,1989-05-07,Monaco Grand Prix,1989,3
-Ligier,Finished,1989-05-07,Monaco Grand Prix,1989,3
-Dallara,Finished,1989-05-07,Monaco Grand Prix,1989,3
-Benetton,Finished,1989-05-07,Monaco Grand Prix,1989,3
-Williams,Finished,1989-05-07,Monaco Grand Prix,1989,3
-Minardi,Overheating,1989-05-07,Monaco Grand Prix,1989,3
-AGS,Electrical,1989-05-07,Monaco Grand Prix,1989,3
-Coloni,Gearbox,1989-05-07,Monaco Grand Prix,1989,3
-Larrousse,Engine,1989-05-07,Monaco Grand Prix,1989,3
-March,Engine,1989-05-07,Monaco Grand Prix,1989,3
-Team Lotus,Accident,1989-05-07,Monaco Grand Prix,1989,3
-Ferrari,Gearbox,1989-05-07,Monaco Grand Prix,1989,3
-Coloni,Gearbox,1989-05-07,Monaco Grand Prix,1989,3
-Ligier,Gearbox,1989-05-07,Monaco Grand Prix,1989,3
-Minardi,Gearbox,1989-05-07,Monaco Grand Prix,1989,3
-Arrows,Electrical,1989-05-07,Monaco Grand Prix,1989,3
-McLaren,Finished,1989-05-28,Mexican Grand Prix,1989,4
-Williams,Finished,1989-05-28,Mexican Grand Prix,1989,4
-Tyrrell,Finished,1989-05-28,Mexican Grand Prix,1989,4
-Benetton,Finished,1989-05-28,Mexican Grand Prix,1989,4
-McLaren,Finished,1989-05-28,Mexican Grand Prix,1989,4
-AGS,Finished,1989-05-28,Mexican Grand Prix,1989,4
-Arrows,Finished,1989-05-28,Mexican Grand Prix,1989,4
-Ligier,Finished,1989-05-28,Mexican Grand Prix,1989,4
-Brabham,Finished,1989-05-28,Mexican Grand Prix,1989,4
-Brabham,Finished,1989-05-28,Mexican Grand Prix,1989,4
-Team Lotus,Finished,1989-05-28,Mexican Grand Prix,1989,4
-Rial,Finished,1989-05-28,Mexican Grand Prix,1989,4
-Dallara,Finished,1989-05-28,Mexican Grand Prix,1989,4
-Ligier,Finished,1989-05-28,Mexican Grand Prix,1989,4
-Benetton,Finished,1989-05-28,Mexican Grand Prix,1989,4
-Minardi,Engine,1989-05-28,Mexican Grand Prix,1989,4
-Ferrari,Gearbox,1989-05-28,Mexican Grand Prix,1989,4
-Arrows,Electrical,1989-05-28,Mexican Grand Prix,1989,4
-Team Lotus,Accident,1989-05-28,Mexican Grand Prix,1989,4
-Larrousse,Not classified,1989-05-28,Mexican Grand Prix,1989,4
-Dallara,Suspension,1989-05-28,Mexican Grand Prix,1989,4
-Ferrari,Gearbox,1989-05-28,Mexican Grand Prix,1989,4
-Onyx,Gearbox,1989-05-28,Mexican Grand Prix,1989,4
-Williams,Electrical,1989-05-28,Mexican Grand Prix,1989,4
-Tyrrell,Engine,1989-05-28,Mexican Grand Prix,1989,4
-March,Gearbox,1989-05-28,Mexican Grand Prix,1989,4
-McLaren,Finished,1989-06-04,United States Grand Prix,1989,5
-Williams,Finished,1989-06-04,United States Grand Prix,1989,5
-Arrows,Finished,1989-06-04,United States Grand Prix,1989,5
-Rial,Finished,1989-06-04,United States Grand Prix,1989,5
-Benetton,Finished,1989-06-04,United States Grand Prix,1989,5
-Williams,Finished,1989-06-04,United States Grand Prix,1989,5
-AGS,Engine,1989-06-04,United States Grand Prix,1989,5
-Dallara,Finished,1989-06-04,United States Grand Prix,1989,5
-Tyrrell,Fluid systems,1989-06-04,United States Grand Prix,1989,5
-Ferrari,Electrical,1989-06-04,United States Grand Prix,1989,5
-Dallara,Accident,1989-06-04,United States Grand Prix,1989,5
-Team Lotus,Accident,1989-06-04,United States Grand Prix,1989,5
-Onyx,Suspension,1989-06-04,United States Grand Prix,1989,5
-Minardi,Engine,1989-06-04,United States Grand Prix,1989,5
-McLaren,Electrical,1989-06-04,United States Grand Prix,1989,5
-Brabham,Tyre,1989-06-04,United States Grand Prix,1989,5
-Brabham,Tyre,1989-06-04,United States Grand Prix,1989,5
-Ferrari,Electrical,1989-06-04,United States Grand Prix,1989,5
-Minardi,Engine,1989-06-04,United States Grand Prix,1989,5
-Team Lotus,Engine,1989-06-04,United States Grand Prix,1989,5
-March,Gearbox,1989-06-04,United States Grand Prix,1989,5
-March,Tyre,1989-06-04,United States Grand Prix,1989,5
-Tyrrell,Gearbox,1989-06-04,United States Grand Prix,1989,5
-Benetton,Driver-related,1989-06-04,United States Grand Prix,1989,5
-Arrows,Accident,1989-06-04,United States Grand Prix,1989,5
-Larrousse,Accident,1989-06-04,United States Grand Prix,1989,5
-Williams,Finished,1989-06-18,Canadian Grand Prix,1989,6
-Williams,Finished,1989-06-18,Canadian Grand Prix,1989,6
-Dallara,Finished,1989-06-18,Canadian Grand Prix,1989,6
-Team Lotus,Finished,1989-06-18,Canadian Grand Prix,1989,6
-Ligier,Finished,1989-06-18,Canadian Grand Prix,1989,6
-Dallara,Finished,1989-06-18,Canadian Grand Prix,1989,6
-McLaren,Engine,1989-06-18,Canadian Grand Prix,1989,6
-Rial,Finished,1989-06-18,Canadian Grand Prix,1989,6
-Coloni,Powertrain,1989-06-18,Canadian Grand Prix,1989,6
-Arrows,Engine,1989-06-18,Canadian Grand Prix,1989,6
-Tyrrell,Accident,1989-06-18,Canadian Grand Prix,1989,6
-Osella,Electrical,1989-06-18,Canadian Grand Prix,1989,6
-March,Accident,1989-06-18,Canadian Grand Prix,1989,6
-Larrousse,Accident,1989-06-18,Canadian Grand Prix,1989,6
-Onyx,Disqualified,1989-06-18,Canadian Grand Prix,1989,6
-Minardi,Accident,1989-06-18,Canadian Grand Prix,1989,6
-March,Electrical,1989-06-18,Canadian Grand Prix,1989,6
-Ferrari,Gearbox,1989-06-18,Canadian Grand Prix,1989,6
-AGS,Accident,1989-06-18,Canadian Grand Prix,1989,6
-Arrows,Accident,1989-06-18,Canadian Grand Prix,1989,6
-McLaren,Suspension,1989-06-18,Canadian Grand Prix,1989,6
-Ferrari,Disqualified,1989-06-18,Canadian Grand Prix,1989,6
-Brabham,Accident,1989-06-18,Canadian Grand Prix,1989,6
-Minardi,Accident,1989-06-18,Canadian Grand Prix,1989,6
-Benetton,Disqualified,1989-06-18,Canadian Grand Prix,1989,6
-Tyrrell,Electrical,1989-06-18,Canadian Grand Prix,1989,6
-McLaren,Finished,1989-07-09,French Grand Prix,1989,7
-Ferrari,Finished,1989-07-09,French Grand Prix,1989,7
-Williams,Finished,1989-07-09,French Grand Prix,1989,7
-Tyrrell,Finished,1989-07-09,French Grand Prix,1989,7
-Onyx,Finished,1989-07-09,French Grand Prix,1989,7
-Ligier,Finished,1989-07-09,French Grand Prix,1989,7
-Arrows,Finished,1989-07-09,French Grand Prix,1989,7
-Team Lotus,Finished,1989-07-09,French Grand Prix,1989,7
-Benetton,Finished,1989-07-09,French Grand Prix,1989,7
-Tyrrell,Finished,1989-07-09,French Grand Prix,1989,7
-Larrousse,Finished,1989-07-09,French Grand Prix,1989,7
-Arrows,Finished,1989-07-09,French Grand Prix,1989,7
-Onyx,Engine,1989-07-09,French Grand Prix,1989,7
-March,Not classified,1989-07-09,French Grand Prix,1989,7
-Brabham,Engine,1989-07-09,French Grand Prix,1989,7
-Williams,Gearbox,1989-07-09,French Grand Prix,1989,7
-Team Lotus,Engine,1989-07-09,French Grand Prix,1989,7
-March,Engine,1989-07-09,French Grand Prix,1989,7
-Benetton,Suspension,1989-07-09,French Grand Prix,1989,7
-Minardi,Engine,1989-07-09,French Grand Prix,1989,7
-Larrousse,Engine,1989-07-09,French Grand Prix,1989,7
-AGS,Engine,1989-07-09,French Grand Prix,1989,7
-Ferrari,Gearbox,1989-07-09,French Grand Prix,1989,7
-Dallara,Gearbox,1989-07-09,French Grand Prix,1989,7
-Ligier,Gearbox,1989-07-09,French Grand Prix,1989,7
-McLaren,Powertrain,1989-07-09,French Grand Prix,1989,7
-McLaren,Finished,1989-07-16,British Grand Prix,1989,8
-Ferrari,Finished,1989-07-16,British Grand Prix,1989,8
-Benetton,Finished,1989-07-16,British Grand Prix,1989,8
-Team Lotus,Finished,1989-07-16,British Grand Prix,1989,8
-Minardi,Finished,1989-07-16,British Grand Prix,1989,8
-Minardi,Finished,1989-07-16,British Grand Prix,1989,8
-Ligier,Finished,1989-07-16,British Grand Prix,1989,8
-Team Lotus,Finished,1989-07-16,British Grand Prix,1989,8
-Arrows,Finished,1989-07-16,British Grand Prix,1989,8
-Williams,Finished,1989-07-16,British Grand Prix,1989,8
-Benetton,Finished,1989-07-16,British Grand Prix,1989,8
-Onyx,Finished,1989-07-16,British Grand Prix,1989,8
-March,Gearbox,1989-07-16,British Grand Prix,1989,8
-Brabham,Engine,1989-07-16,British Grand Prix,1989,8
-Ferrari,Overheating,1989-07-16,British Grand Prix,1989,8
-Larrousse,Engine,1989-07-16,British Grand Prix,1989,8
-Larrousse,Engine,1989-07-16,British Grand Prix,1989,8
-Tyrrell,Accident,1989-07-16,British Grand Prix,1989,8
-Brabham,Engine,1989-07-16,British Grand Prix,1989,8
-Tyrrell,Accident,1989-07-16,British Grand Prix,1989,8
-Osella,Suspension,1989-07-16,British Grand Prix,1989,8
-Williams,Overheating,1989-07-16,British Grand Prix,1989,8
-March,Gearbox,1989-07-16,British Grand Prix,1989,8
-Dallara,Engine,1989-07-16,British Grand Prix,1989,8
-McLaren,Accident,1989-07-16,British Grand Prix,1989,8
-Coloni,Gearbox,1989-07-16,British Grand Prix,1989,8
-McLaren,Finished,1989-07-30,German Grand Prix,1989,9
-McLaren,Finished,1989-07-30,German Grand Prix,1989,9
-Ferrari,Finished,1989-07-30,German Grand Prix,1989,9
-Williams,Finished,1989-07-30,German Grand Prix,1989,9
-Team Lotus,Finished,1989-07-30,German Grand Prix,1989,9
-Arrows,Finished,1989-07-30,German Grand Prix,1989,9
-Dallara,Finished,1989-07-30,German Grand Prix,1989,9
-Brabham,Finished,1989-07-30,German Grand Prix,1989,9
-Minardi,Finished,1989-07-30,German Grand Prix,1989,9
-Tyrrell,Finished,1989-07-30,German Grand Prix,1989,9
-Ligier,Finished,1989-07-30,German Grand Prix,1989,9
-Arrows,Fluid systems,1989-07-30,German Grand Prix,1989,9
-Brabham,Engine,1989-07-30,German Grand Prix,1989,9
-Team Lotus,Accident,1989-07-30,German Grand Prix,1989,9
-March,Electrical,1989-07-30,German Grand Prix,1989,9
-March,Gearbox,1989-07-30,German Grand Prix,1989,9
-Benetton,Accident,1989-07-30,German Grand Prix,1989,9
-Larrousse,Fluid systems,1989-07-30,German Grand Prix,1989,9
-Tyrrell,Engine,1989-07-30,German Grand Prix,1989,9
-Ferrari,Accident,1989-07-30,German Grand Prix,1989,9
-Onyx,Overheating,1989-07-30,German Grand Prix,1989,9
-Benetton,Electrical,1989-07-30,German Grand Prix,1989,9
-Williams,Accident,1989-07-30,German Grand Prix,1989,9
-Dallara,Engine,1989-07-30,German Grand Prix,1989,9
-Larrousse,Electrical,1989-07-30,German Grand Prix,1989,9
-Ligier,Gearbox,1989-07-30,German Grand Prix,1989,9
-Rial,Disqualified,1989-07-30,German Grand Prix,1989,9
-Ferrari,Finished,1989-08-13,Hungarian Grand Prix,1989,10
-McLaren,Finished,1989-08-13,Hungarian Grand Prix,1989,10
-Williams,Finished,1989-08-13,Hungarian Grand Prix,1989,10
-McLaren,Finished,1989-08-13,Hungarian Grand Prix,1989,10
-Arrows,Finished,1989-08-13,Hungarian Grand Prix,1989,10
-Team Lotus,Finished,1989-08-13,Hungarian Grand Prix,1989,10
-Dallara,Finished,1989-08-13,Hungarian Grand Prix,1989,10
-Benetton,Finished,1989-08-13,Hungarian Grand Prix,1989,10
-Tyrrell,Finished,1989-08-13,Hungarian Grand Prix,1989,10
-Arrows,Finished,1989-08-13,Hungarian Grand Prix,1989,10
-Brabham,Finished,1989-08-13,Hungarian Grand Prix,1989,10
-Brabham,Finished,1989-08-13,Hungarian Grand Prix,1989,10
-Tyrrell,Finished,1989-08-13,Hungarian Grand Prix,1989,10
-Minardi,Accident,1989-08-13,Hungarian Grand Prix,1989,10
-Ferrari,Gearbox,1989-08-13,Hungarian Grand Prix,1989,10
-Williams,Overheating,1989-08-13,Hungarian Grand Prix,1989,10
-Onyx,Gearbox,1989-08-13,Hungarian Grand Prix,1989,10
-Benetton,Gearbox,1989-08-13,Hungarian Grand Prix,1989,10
-Onyx,Gearbox,1989-08-13,Hungarian Grand Prix,1989,10
-Team Lotus,Accident,1989-08-13,Hungarian Grand Prix,1989,10
-March,Electrical,1989-08-13,Hungarian Grand Prix,1989,10
-March,Tyre,1989-08-13,Hungarian Grand Prix,1989,10
-Larrousse,Engine,1989-08-13,Hungarian Grand Prix,1989,10
-Osella,Electrical,1989-08-13,Hungarian Grand Prix,1989,10
-Minardi,Tyre,1989-08-13,Hungarian Grand Prix,1989,10
-Dallara,Gearbox,1989-08-13,Hungarian Grand Prix,1989,10
-McLaren,Finished,1989-08-27,Belgian Grand Prix,1989,11
-McLaren,Finished,1989-08-27,Belgian Grand Prix,1989,11
-Ferrari,Finished,1989-08-27,Belgian Grand Prix,1989,11
-Williams,Finished,1989-08-27,Belgian Grand Prix,1989,11
-Benetton,Finished,1989-08-27,Belgian Grand Prix,1989,11
-Arrows,Finished,1989-08-27,Belgian Grand Prix,1989,11
-March,Finished,1989-08-27,Belgian Grand Prix,1989,11
-Onyx,Finished,1989-08-27,Belgian Grand Prix,1989,11
-Minardi,Finished,1989-08-27,Belgian Grand Prix,1989,11
-Benetton,Finished,1989-08-27,Belgian Grand Prix,1989,11
-Dallara,Finished,1989-08-27,Belgian Grand Prix,1989,11
-March,Finished,1989-08-27,Belgian Grand Prix,1989,11
-Ligier,Finished,1989-08-27,Belgian Grand Prix,1989,11
-Tyrrell,Finished,1989-08-27,Belgian Grand Prix,1989,11
-Minardi,Finished,1989-08-27,Belgian Grand Prix,1989,11
-Larrousse,Engine,1989-08-27,Belgian Grand Prix,1989,11
-Arrows,Tyre,1989-08-27,Belgian Grand Prix,1989,11
-Onyx,Accident,1989-08-27,Belgian Grand Prix,1989,11
-Williams,Accident,1989-08-27,Belgian Grand Prix,1989,11
-Larrousse,Accident,1989-08-27,Belgian Grand Prix,1989,11
-Dallara,Accident,1989-08-27,Belgian Grand Prix,1989,11
-Brabham,Tyre,1989-08-27,Belgian Grand Prix,1989,11
-Ferrari,Accident,1989-08-27,Belgian Grand Prix,1989,11
-Brabham,Suspension,1989-08-27,Belgian Grand Prix,1989,11
-Ligier,Accident,1989-08-27,Belgian Grand Prix,1989,11
-Tyrrell,Accident,1989-08-27,Belgian Grand Prix,1989,11
-McLaren,Finished,1989-09-10,Italian Grand Prix,1989,12
-Ferrari,Finished,1989-09-10,Italian Grand Prix,1989,12
-Williams,Finished,1989-09-10,Italian Grand Prix,1989,12
-Williams,Finished,1989-09-10,Italian Grand Prix,1989,12
-Tyrrell,Finished,1989-09-10,Italian Grand Prix,1989,12
-Brabham,Finished,1989-09-10,Italian Grand Prix,1989,12
-Minardi,Finished,1989-09-10,Italian Grand Prix,1989,12
-Minardi,Finished,1989-09-10,Italian Grand Prix,1989,12
-Ligier,Finished,1989-09-10,Italian Grand Prix,1989,12
-Team Lotus,Suspension,1989-09-10,Italian Grand Prix,1989,12
-Dallara,Engine,1989-09-10,Italian Grand Prix,1989,12
-Dallara,Engine,1989-09-10,Italian Grand Prix,1989,12
-McLaren,Engine,1989-09-10,Italian Grand Prix,1989,12
-Ferrari,Gearbox,1989-09-10,Italian Grand Prix,1989,12
-Onyx,Overheating,1989-09-10,Italian Grand Prix,1989,12
-Benetton,Tyre,1989-09-10,Italian Grand Prix,1989,12
-March,Engine,1989-09-10,Italian Grand Prix,1989,12
-Ligier,Overheating,1989-09-10,Italian Grand Prix,1989,12
-Team Lotus,Accident,1989-09-10,Italian Grand Prix,1989,12
-Tyrrell,Engine,1989-09-10,Italian Grand Prix,1989,12
-Arrows,Fluid systems,1989-09-10,Italian Grand Prix,1989,12
-Osella,Gearbox,1989-09-10,Italian Grand Prix,1989,12
-Larrousse,Electrical,1989-09-10,Italian Grand Prix,1989,12
-March,Engine,1989-09-10,Italian Grand Prix,1989,12
-Larrousse,Accident,1989-09-10,Italian Grand Prix,1989,12
-Benetton,Gearbox,1989-09-10,Italian Grand Prix,1989,12
-Brabham,Disqualified,1989-09-10,Italian Grand Prix,1989,12
-Ferrari,Finished,1989-09-24,Portuguese Grand Prix,1989,13
-McLaren,Finished,1989-09-24,Portuguese Grand Prix,1989,13
-Onyx,Finished,1989-09-24,Portuguese Grand Prix,1989,13
-Benetton,Finished,1989-09-24,Portuguese Grand Prix,1989,13
-Minardi,Finished,1989-09-24,Portuguese Grand Prix,1989,13
-Tyrrell,Finished,1989-09-24,Portuguese Grand Prix,1989,13
-Team Lotus,Finished,1989-09-24,Portuguese Grand Prix,1989,13
-Brabham,Finished,1989-09-24,Portuguese Grand Prix,1989,13
-Larrousse,Finished,1989-09-24,Portuguese Grand Prix,1989,13
-March,Finished,1989-09-24,Portuguese Grand Prix,1989,13
-Larrousse,Finished,1989-09-24,Portuguese Grand Prix,1989,13
-Minardi,Finished,1989-09-24,Portuguese Grand Prix,1989,13
-Ligier,Finished,1989-09-24,Portuguese Grand Prix,1989,13
-Brabham,Finished,1989-09-24,Portuguese Grand Prix,1989,13
-Williams,Overheating,1989-09-24,Portuguese Grand Prix,1989,13
-Williams,Overheating,1989-09-24,Portuguese Grand Prix,1989,13
-McLaren,Accident,1989-09-24,Portuguese Grand Prix,1989,13
-Ferrari,Disqualified,1989-09-24,Portuguese Grand Prix,1989,13
-Arrows,Accident,1989-09-24,Portuguese Grand Prix,1989,13
-Team Lotus,Accident,1989-09-24,Portuguese Grand Prix,1989,13
-Dallara,Accident,1989-09-24,Portuguese Grand Prix,1989,13
-Benetton,Suspension,1989-09-24,Portuguese Grand Prix,1989,13
-March,Engine,1989-09-24,Portuguese Grand Prix,1989,13
-Arrows,Accident,1989-09-24,Portuguese Grand Prix,1989,13
-Dallara,Electrical,1989-09-24,Portuguese Grand Prix,1989,13
-Coloni,Electrical,1989-09-24,Portuguese Grand Prix,1989,13
-McLaren,Finished,1989-10-01,Spanish Grand Prix,1989,14
-Ferrari,Finished,1989-10-01,Spanish Grand Prix,1989,14
-McLaren,Finished,1989-10-01,Spanish Grand Prix,1989,14
-Tyrrell,Finished,1989-10-01,Spanish Grand Prix,1989,14
-Williams,Finished,1989-10-01,Spanish Grand Prix,1989,14
-Larrousse,Finished,1989-10-01,Spanish Grand Prix,1989,14
-Dallara,Finished,1989-10-01,Spanish Grand Prix,1989,14
-Team Lotus,Finished,1989-10-01,Spanish Grand Prix,1989,14
-Arrows,Finished,1989-10-01,Spanish Grand Prix,1989,14
-Tyrrell,Finished,1989-10-01,Spanish Grand Prix,1989,14
-Arrows,Engine,1989-10-01,Spanish Grand Prix,1989,14
-Benetton,Accident,1989-10-01,Spanish Grand Prix,1989,14
-Dallara,Engine,1989-10-01,Spanish Grand Prix,1989,14
-Brabham,Accident,1989-10-01,Spanish Grand Prix,1989,14
-March,Accident,1989-10-01,Spanish Grand Prix,1989,14
-Minardi,Accident,1989-10-01,Spanish Grand Prix,1989,14
-Williams,Fluid systems,1989-10-01,Spanish Grand Prix,1989,14
-Ligier,Engine,1989-10-01,Spanish Grand Prix,1989,14
-Minardi,Accident,1989-10-01,Spanish Grand Prix,1989,14
-March,Gearbox,1989-10-01,Spanish Grand Prix,1989,14
-Onyx,Gearbox,1989-10-01,Spanish Grand Prix,1989,14
-Osella,Gearbox,1989-10-01,Spanish Grand Prix,1989,14
-Benetton,Accident,1989-10-01,Spanish Grand Prix,1989,14
-Brabham,Electrical,1989-10-01,Spanish Grand Prix,1989,14
-Osella,Suspension,1989-10-01,Spanish Grand Prix,1989,14
-Team Lotus,Accident,1989-10-01,Spanish Grand Prix,1989,14
-Benetton,Finished,1989-10-22,Japanese Grand Prix,1989,15
-Williams,Finished,1989-10-22,Japanese Grand Prix,1989,15
-Williams,Finished,1989-10-22,Japanese Grand Prix,1989,15
-Team Lotus,Finished,1989-10-22,Japanese Grand Prix,1989,15
-Brabham,Finished,1989-10-22,Japanese Grand Prix,1989,15
-Arrows,Finished,1989-10-22,Japanese Grand Prix,1989,15
-March,Finished,1989-10-22,Japanese Grand Prix,1989,15
-Arrows,Finished,1989-10-22,Japanese Grand Prix,1989,15
-Dallara,Finished,1989-10-22,Japanese Grand Prix,1989,15
-Dallara,Finished,1989-10-22,Japanese Grand Prix,1989,15
-McLaren,Disqualified,1989-10-22,Japanese Grand Prix,1989,15
-McLaren,Accident,1989-10-22,Japanese Grand Prix,1989,15
-Brabham,Engine,1989-10-22,Japanese Grand Prix,1989,15
-Ferrari,Engine,1989-10-22,Japanese Grand Prix,1989,15
-Team Lotus,Engine,1989-10-22,Japanese Grand Prix,1989,15
-Tyrrell,Gearbox,1989-10-22,Japanese Grand Prix,1989,15
-Larrousse,Engine,1989-10-22,Japanese Grand Prix,1989,15
-Ferrari,Gearbox,1989-10-22,Japanese Grand Prix,1989,15
-Benetton,Accident,1989-10-22,Japanese Grand Prix,1989,15
-Ligier,Engine,1989-10-22,Japanese Grand Prix,1989,15
-March,Suspension,1989-10-22,Japanese Grand Prix,1989,15
-Osella,Tyre,1989-10-22,Japanese Grand Prix,1989,15
-Tyrrell,Fluid systems,1989-10-22,Japanese Grand Prix,1989,15
-Zakspeed,Gearbox,1989-10-22,Japanese Grand Prix,1989,15
-Minardi,Accident,1989-10-22,Japanese Grand Prix,1989,15
-Minardi,Gearbox,1989-10-22,Japanese Grand Prix,1989,15
-Williams,Finished,1989-11-05,Australian Grand Prix,1989,16
-Benetton,Finished,1989-11-05,Australian Grand Prix,1989,16
-Williams,Finished,1989-11-05,Australian Grand Prix,1989,16
-Team Lotus,Finished,1989-11-05,Australian Grand Prix,1989,16
-Benetton,Finished,1989-11-05,Australian Grand Prix,1989,16
-Minardi,Finished,1989-11-05,Australian Grand Prix,1989,16
-March,Finished,1989-11-05,Australian Grand Prix,1989,16
-Brabham,Finished,1989-11-05,Australian Grand Prix,1989,16
-Arrows,Accident,1989-11-05,Australian Grand Prix,1989,16
-Onyx,Electrical,1989-11-05,Australian Grand Prix,1989,16
-Ligier,Accident,1989-11-05,Australian Grand Prix,1989,16
-Team Lotus,Accident,1989-11-05,Australian Grand Prix,1989,16
-Osella,Accident,1989-11-05,Australian Grand Prix,1989,16
-Ferrari,Accident,1989-11-05,Australian Grand Prix,1989,16
-McLaren,Accident,1989-11-05,Australian Grand Prix,1989,16
-Dallara,Accident,1989-11-05,Australian Grand Prix,1989,16
-March,Overheating,1989-11-05,Australian Grand Prix,1989,16
-Dallara,Accident,1989-11-05,Australian Grand Prix,1989,16
-Brabham,Accident,1989-11-05,Australian Grand Prix,1989,16
-Arrows,Accident,1989-11-05,Australian Grand Prix,1989,16
-Larrousse,Accident,1989-11-05,Australian Grand Prix,1989,16
-Ferrari,Accident,1989-11-05,Australian Grand Prix,1989,16
-Tyrrell,Electrical,1989-11-05,Australian Grand Prix,1989,16
-Ligier,Accident,1989-11-05,Australian Grand Prix,1989,16
-Osella,Electrical,1989-11-05,Australian Grand Prix,1989,16

@@ -20,7 +20,7 @@ circuitpath = os.getcwd() + r'\plots\circuits'
 # check if args contains u 
 if not os.path.exists(os.path.join(path,r'turbo_era.csv')) or 'u' in args:
     print('Getting data...')
-    getdata(1980, 1990).to_csv(os.path.join(path,r'turbo_era.csv'), index=False)
+    getdata(1977, 1989).to_csv(os.path.join(path,r'turbo_era.csv'), index=False)
     getdata(2014, 2024).to_csv(os.path.join(path,r'hybrid_era.csv'), index=False)
     print('Data saved to data folder')
 
@@ -84,7 +84,7 @@ if 'p' in args:
                 plt.xlabel('Year')
                 plt.ylabel('Amount')
                 plt.ylim(0, 25)
-                plt.yticks(range(0, 20, 5))
+                plt.yticks(range(0, 25, 5))
                 plt.legend(bbox_to_anchor=(0.9999, 1))
                 plt.savefig(os.path.join(circuitpath, file[:-4] + '_' + str(circuit) + '.png'))
                 plt.clf()
