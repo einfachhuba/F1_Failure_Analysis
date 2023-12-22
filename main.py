@@ -52,11 +52,11 @@ if 'p' in args:
             # plot data
             df_data_ds.plot(kind='bar', stacked=True, figsize=(15, 5), color=custom_colors)
             if file == 'turbo_era.csv':
-                plt.title('F1 Breakdowns (1980 - 1990)')
+                plt.title('F1 Breakdowns (1977 - 1988)')
                 plt.ylim(0, 300)
                 plt.yticks(range(0, 300, 25))
             else:
-                plt.title('F1 Breakdowns (2014 - 2024)')
+                plt.title('F1 Breakdowns (2014 - 2023)')
                 plt.ylim(0, 150)
                 plt.yticks(range(0, 150, 25))
 

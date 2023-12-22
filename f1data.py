@@ -27,7 +27,7 @@ def getdata(startdate, enddate):
     # 2 corner cases in Hybrid Era where the status is not fully correct
     if startdate == 2014:
         if dfresult[(dfresult['year'] == 2014) & (dfresult['circuit'] == 'Malaysian Grand Prix')].empty == False:
-            dfresult.loc[(dfresult['year'] == 2014) & (dfresult['circuit'] == 'Malaysian Grand Prix') & (dfresult['status'] == 'Technical'), 'status'] = 'Wing'
+            dfresult.loc[(dfresult['year'] == 2014) & (dfresult['circuit'] == 'Malaysian Grand Prix') & (dfresult['status'] == 'Technical'), 'status'] = 'Chassis'
 
         if dfresult[(dfresult['year'] == 2023) & (dfresult['circuit'] == 'Singapore Grand Prix')].empty == False:
             dfresult.loc[(dfresult['year'] == 2023) & (dfresult['circuit'] == 'Singapore Grand Prix') & (dfresult['status'] == 'Technical'), 'status'] = 'Overheating'
