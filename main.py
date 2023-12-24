@@ -42,6 +42,7 @@ if 'p' in args:
         if file.endswith('.csv'):
             df_data = pd.read_csv(os.path.join(path,file))
             df_data = df_data[df_data['status'] != 'Finished']
+            df_data = df_data[df_data['status'] != 'Not classified']
             
             # group data by date and status
             df_data_ds = df_data.groupby(['year', 'status']).size().reset_index(name='counts')
@@ -100,6 +101,8 @@ if 'a' in args:
     # drop the finished status rows
     df_turbo = df_turbo[df_turbo['status'] != 'Finished']
     df_hybrid = df_hybrid[df_hybrid['status'] != 'Finished']
+    df_turbo = df_turbo[df_turbo['status'] != 'Not classified']
+    df_hybrid = df_hybrid[df_hybrid['status'] != 'Not classified']
     
     # transform data to have the groups as rows and the years as columns
     df_turbo_sy = df_turbo.groupby(['year', 'status']).size().reset_index(name='counts')
@@ -150,7 +153,7 @@ if 'a' in args:
     plt.clf()
     
     #replace the each year in the year column with a number
-    df_turbo['year'] = df_turbo['year'].replace({1980: 1, 1981: 2, 1982: 3, 1983: 4, 1984: 5, 1985: 6, 1986: 7, 1987: 8, 1988: 9, 1989: 10})
+    df_turbo['year'] = df_turbo['year'].replace({1977: 1, 1978: 2, 1979: 3, 1980: 4, 1981: 5, 1982: 6, 1983: 7, 1984: 8, 1985: 9, 1986: 10, 1987: 11, 1988: 12})
     df_hybrid['year'] = df_hybrid['year'].replace({2014: 1, 2015: 2, 2016: 3, 2017: 4, 2018: 5, 2019: 6, 2020: 7, 2021: 8, 2022: 9, 2023: 10})
     
     df_turbo_newys = df_turbo.groupby(['year', 'status']).size().reset_index(name='counts')
@@ -170,8 +173,8 @@ if 'a' in args:
     # plot the correlation between the two eras as a line chart with data points
     plt.title('Correlation between Turbo and Hybrid era')
     plt.ylabel('Correlation')
-    plt.xlabel('Years')
-    plt.xticks(np.arange(1, 11, 1))
+    plt.xlabel('Compared Years')
+    plt.xticks(np.arange(1, 11, 1), [str(x) + '-' + str(x + 37) for x in range(1977, 1987)])
     plt.yticks(np.arange(-1.1, 1.1, 0.1))
     plt.ylim(-1, 1)
     plt.plot(df_turbo_newys.corrwith(df_hybrid_newys), marker='o')
@@ -201,8 +204,8 @@ if 'a' in args:
     for circuit in df_turbo_circuit.index.get_level_values(0).unique():
         plt.title('Correlation between Turbo and Hybrid era (' + str(circuit) + ')')
         plt.ylabel('Correlation')
-        plt.xlabel('Years')
-        plt.xticks(np.arange(1, 11, 1))
+        plt.xlabel('Compared Years')
+        plt.xticks(np.arange(1, 11, 1), [str(x) + '-' + str(x + 37) for x in range(1977, 1987)])
         plt.yticks(np.arange(-1.1, 1.1, 0.1))
         plt.ylim(-1, 1)
         plt.plot(df_turbo_circuit.loc[circuit].corrwith(df_hybrid_circuit.loc[circuit]), marker='o')

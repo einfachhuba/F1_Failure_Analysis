@@ -32,7 +32,7 @@ def getdata(startdate, enddate):
         if dfresult[(dfresult['year'] == 2023) & (dfresult['circuit'] == 'Singapore Grand Prix')].empty == False:
             dfresult.loc[(dfresult['year'] == 2023) & (dfresult['circuit'] == 'Singapore Grand Prix') & (dfresult['status'] == 'Technical'), 'status'] = 'Overheating'
 
-    dfresult = dfresult[~dfresult['status'].isin(['Did not qualify', 'Did not prequalify', 'Retired', 'Withdrew', 'Excluded', 'Mechanical'])]
+    dfresult = dfresult[~dfresult['status'].isin(['Did not qualify', 'Did not prequalify', 'Retired', 'Withdrew', 'Excluded', 'Mechanical', 'Not Classified'])]
 
     digroup_values = {
         'Engine': {'Injection', 'Throttle', 'Power Unit', 'Power loss'},
@@ -42,7 +42,7 @@ def getdata(startdate, enddate):
         'Electrical': {'Spark plugs', 'Battery', 'Alternator', 'Distributor', 'Ignition', 'Electronics', 'ERS'},
         'Tyre': {'Puncture', 'Wheel', 'Wheel bearing', 'Brakes', 'Wheel nut', 'Technical', 'Brake duct'},
         'Fluid systems': {'Out of fuel', 'Fuel pump', 'Fuel leak', 'Fuel system', 'Oil leak', 'Oil pump', 'Oil pressure',
-                        'Water leak', 'Water pump', 'Hydraulics', 'Water pressure', 'Fuel pressure'},
+                        'Water leak', 'Water pump', 'Hydraulics', 'Water pressure', 'Fuel pressure', 'Fuel pipe'},
         'Chassis': {'Broken wing', 'Rear wing', 'Front wing', 'Debris', 'Undertray'},
         'Driver-related': {'Driver unwell', 'Injured', 'Injury', 'Physical', 'Fatal accident', 'Illness', 'Seat'},
         'Overheating': {'Heat shield fire', 'Radiator', 'Mechanical', 'Exhaust', 'Cooling system', 'Fire'},
