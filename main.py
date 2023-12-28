@@ -17,13 +17,6 @@ path = os.getcwd() + r'\data'
 plotpath = os.getcwd() + r'\plots'
 circuitpath = os.getcwd() + r'\plots\circuits'
 
-# check if args contains u 
-if not os.path.exists(os.path.join(path,r'turbo_era.csv')) or 'u' in args:
-    print('Getting data...')
-    getdata(1977, 1989).to_csv(os.path.join(path,r'turbo_era.csv'), index=False)
-    getdata(2014, 2024).to_csv(os.path.join(path,r'hybrid_era.csv'), index=False)
-    print('Data saved to data folder')
-
 custom_colors = [   '#945417', '#1eabfa', '#a22780', '#ecb920',
                     '#7f6e34', '#1e3d59', '#c5521b', '#800e34',
                     '#00bb6c', '#e28fc3', '#704b5b', '#e39e83',
@@ -36,6 +29,14 @@ ligroups =      ['Engine', 'Gearbox', 'Powertrain', 'Suspension', 'Electrical', 
                  'Fluid systems', 'Chassis', 'Driver-related', 'Overheating', 'Accident',
                  'Not classified', 'Disqualified', 'Turbo']
 
+# check if args contains u 
+if not os.path.exists(os.path.join(path,r'turbo_era.csv')) or 'u' in args:
+    print('Getting data...')
+    getdata(1977, 1989).to_csv(os.path.join(path,r'turbo_era.csv'), index=False)
+    getdata(2014, 2024).to_csv(os.path.join(path,r'hybrid_era.csv'), index=False)
+    print('Data saved to data folder')
+
+# check if args contains p
 if 'p' in args:
     print('Plotting data...')
     for file in os.listdir(path):
@@ -94,6 +95,10 @@ if 'p' in args:
 
 if 'a' in args:
     print('Analyzing data...')
+    # check if data is already in data folder else exit
+    if not os.path.exists(os.path.join(path,r'turbo_era.csv')) or not os.path.exists(os.path.join(path,r'hybrid_era.csv')):
+        exit('Data not found, please run main.py with the u argument first')
+
     # get both datasets
     df_turbo = pd.read_csv(os.path.join(path,r'turbo_era.csv'))
     df_hybrid = pd.read_csv(os.path.join(path,r'hybrid_era.csv'))
