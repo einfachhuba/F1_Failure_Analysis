@@ -110,30 +110,6 @@ if 'a' in args:
     df_hybrid = df_hybrid[df_hybrid['status'] != 'Not classified']
     
     # transform data to have the groups as rows and the years as columns
-    df_turbo_sy = df_turbo.groupby(['year', 'status']).size().reset_index(name='counts')
-    df_turbo_sy = df_turbo_sy.pivot(index=['year'], columns='status', values='counts')
-    df_turbo_sy = df_turbo_sy.fillna(0)
-    
-    df_hybrid_sy = df_hybrid.groupby(['year', 'status']).size().reset_index(name='counts')
-    df_hybrid_sy = df_hybrid_sy.pivot(index=['year'], columns='status', values='counts')
-    df_hybrid_sy = df_hybrid_sy.fillna(0)
-    
-    # correlation between the status
-    plt.title('Status Correlation Turbo era')
-    plt.figure(figsize=(14,8))
-    sns.set_theme(style="white")
-    heatmap = sns.heatmap(df_turbo_sy.corr(), annot=True, cmap="Blues", fmt='.2g')
-    plt.savefig(os.path.join(plotpath, 'status_correlation_turbo.png'))
-    plt.clf()
-    
-    plt.title('Status Correlation Hybrid era')
-    plt.figure(figsize=(14,8))
-    sns.set_theme(style="white")
-    heatmap = sns.heatmap(df_hybrid_sy.corr(), annot=True, cmap="Greens", fmt='.2g')
-    plt.savefig(os.path.join(plotpath, 'status_correlation_hybrid.png'))
-    plt.clf()
-    
-    # transform data to have the groups as rows and the years as columns
     df_turbo_ys = df_turbo.groupby(['year', 'status']).size().reset_index(name='counts')
     df_turbo_ys = df_turbo_ys.pivot(index=['status'], columns='year', values='counts')
     df_turbo_ys = df_turbo_ys.fillna(0)
