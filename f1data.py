@@ -45,7 +45,7 @@ def getdata(startdate, enddate):
                         'Water leak', 'Water pump', 'Hydraulics', 'Water pressure', 'Fuel pressure', 'Fuel pipe'},
         'Chassis': {'Broken wing', 'Rear wing', 'Front wing', 'Debris', 'Undertray'},
         'Driver-related': {'Driver unwell', 'Injured', 'Injury', 'Physical', 'Fatal accident', 'Illness', 'Seat'},
-        'Overheating': {'Heat shield fire', 'Radiator', 'Mechanical', 'Exhaust', 'Cooling system', 'Fire'},
+        'Overheating': {'Heat shield fire', 'Radiator', 'Exhaust', 'Cooling system', 'Fire'},
         'Accident': {'Collision', 'Spun off', 'Collision damage', 'Damage'},
         'Finished': {'Finisheds'}
     }
