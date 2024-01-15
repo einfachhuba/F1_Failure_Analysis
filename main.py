@@ -204,13 +204,31 @@ if 't' in args:
     df_turbo = pd.read_csv(os.path.join(path,r'turbo_era.csv'))
     df_hybrid = pd.read_csv(os.path.join(path,r'hybrid_era.csv'))
     
+    #########################################################
+    ### Data preperation
+    #########################################################
+
     # drop the finished status rows
     df_turbo = df_turbo[df_turbo['status'] != 'Finished']
     df_hybrid = df_hybrid[df_hybrid['status'] != 'Finished']
     df_turbo = df_turbo[df_turbo['status'] != 'Not classified']
     df_hybrid = df_hybrid[df_hybrid['status'] != 'Not classified']
+
+    # filter data for only circuits in the list
+    df_turbo = df_turbo[df_turbo['circuit'].isin(licircuits)]
+    df_hybrid = df_hybrid[df_hybrid['circuit'].isin(licircuits)]
+
+    # drop the years 1987 and 1988
+    df_turbo = df_turbo[df_turbo['year'] != 1987]
+    df_turbo = df_turbo[df_turbo['year'] != 1988]
     
-    # ANOVA test
+    # replace year with number
+    df_turbo['year'] = df_turbo['year'].replace({1977: 1, 1978: 2, 1979: 3, 1980: 4, 1981: 5, 1982: 6, 1983: 7, 1984: 8, 1985: 9, 1986: 10})
+    df_hybrid['year'] = df_hybrid['year'].replace({2014: 1, 2015: 2, 2016: 3, 2017: 4, 2018: 5, 2019: 6, 2020: 7, 2021: 8, 2022: 9, 2023: 10})
+
+    #########################################################
+    ### ANOVA test
+    #########################################################
     from scipy.stats import f_oneway
     
     # get the data for each year
@@ -221,7 +239,7 @@ if 't' in args:
     df_hybrid_ys = df_hybrid.groupby(['year', 'status']).size().reset_index(name='counts')
     df_hybrid_ys = df_hybrid_ys.pivot(index=['status'], columns='year', values='counts')
     df_hybrid_ys = df_hybrid_ys.fillna(0)
-    
+
     # get the data for each circuit
     df_turbo_circuit = df_turbo.groupby(['year', 'circuit', 'status']).size().reset_index(name='counts')
     df_turbo_circuit = df_turbo_circuit.pivot(index=['circuit', 'status'], columns='year', values='counts')
@@ -233,7 +251,7 @@ if 't' in args:
     
     # apply the ANOVA test to the data
     print('ANOVA test for each year:')
-    for year in df_turbo_ys.columns:
+    for year in df_hybrid_ys.columns:
         print('Year: ' + str(year))
         print(f_oneway(df_turbo_ys[year], df_hybrid_ys[year]))
         print()
@@ -243,3 +261,20 @@ if 't' in args:
         print('Circuit: ' + str(circuit))
         print(f_oneway(df_turbo_circuit.loc[circuit], df_hybrid_circuit.loc[circuit]))
         print()
+
+    # T-test
+    from scipy.stats import ttest_ind
+
+    # apply the T-test to the data
+    print('T-test for each year:')
+    for year in df_hybrid_ys.columns:
+        print('Year: ' + str(year))
+        print(ttest_ind(df_turbo_ys[year], df_hybrid_ys[year]))
+        print()
+
+    print('T-test for each circuit:')
+    for circuit in df_turbo_circuit.index.get_level_values(0).unique():
+        print('Circuit: ' + str(circuit))
+        print(ttest_ind(df_turbo_circuit.loc[circuit], df_hybrid_circuit.loc[circuit]))
+        print()
+    
