@@ -194,4 +194,52 @@ if 'a' in args:
         plt.clf()
     
     print('Analysis done')
+
+if 't' in args:
+     # check if data is already in data folder else exit
+    if not os.path.exists(os.path.join(path,r'turbo_era.csv')) or not os.path.exists(os.path.join(path,r'hybrid_era.csv')):
+        exit('Data not found, please run main.py with the u argument first')
+
+    # get both datasets
+    df_turbo = pd.read_csv(os.path.join(path,r'turbo_era.csv'))
+    df_hybrid = pd.read_csv(os.path.join(path,r'hybrid_era.csv'))
     
+    # drop the finished status rows
+    df_turbo = df_turbo[df_turbo['status'] != 'Finished']
+    df_hybrid = df_hybrid[df_hybrid['status'] != 'Finished']
+    df_turbo = df_turbo[df_turbo['status'] != 'Not classified']
+    df_hybrid = df_hybrid[df_hybrid['status'] != 'Not classified']
+    
+    # ANOVA test
+    from scipy.stats import f_oneway
+    
+    # get the data for each year
+    df_turbo_ys = df_turbo.groupby(['year', 'status']).size().reset_index(name='counts')
+    df_turbo_ys = df_turbo_ys.pivot(index=['status'], columns='year', values='counts')
+    df_turbo_ys = df_turbo_ys.fillna(0)
+    
+    df_hybrid_ys = df_hybrid.groupby(['year', 'status']).size().reset_index(name='counts')
+    df_hybrid_ys = df_hybrid_ys.pivot(index=['status'], columns='year', values='counts')
+    df_hybrid_ys = df_hybrid_ys.fillna(0)
+    
+    # get the data for each circuit
+    df_turbo_circuit = df_turbo.groupby(['year', 'circuit', 'status']).size().reset_index(name='counts')
+    df_turbo_circuit = df_turbo_circuit.pivot(index=['circuit', 'status'], columns='year', values='counts')
+    df_turbo_circuit = df_turbo_circuit.fillna(0)
+    
+    df_hybrid_circuit = df_hybrid.groupby(['year', 'circuit', 'status']).size().reset_index(name='counts')
+    df_hybrid_circuit = df_hybrid_circuit.pivot(index=['circuit', 'status'], columns='year', values='counts')
+    df_hybrid_circuit = df_hybrid_circuit.fillna(0)
+    
+    # apply the ANOVA test to the data
+    print('ANOVA test for each year:')
+    for year in df_turbo_ys.columns:
+        print('Year: ' + str(year))
+        print(f_oneway(df_turbo_ys[year], df_hybrid_ys[year]))
+        print()
+        
+    print('ANOVA test for each circuit:')
+    for circuit in df_turbo_circuit.index.get_level_values(0).unique():
+        print('Circuit: ' + str(circuit))
+        print(f_oneway(df_turbo_circuit.loc[circuit], df_hybrid_circuit.loc[circuit]))
+        print()
