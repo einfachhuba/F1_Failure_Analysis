@@ -218,13 +218,13 @@ if 't' in args:
     df_turbo = df_turbo[df_turbo['circuit'].isin(licircuits)]
     df_hybrid = df_hybrid[df_hybrid['circuit'].isin(licircuits)]
 
-    # drop the years 1987 and 1988
-    df_turbo = df_turbo[df_turbo['year'] != 1987]
-    df_turbo = df_turbo[df_turbo['year'] != 1988]
+    # # drop the years 1987 and 1988
+    # df_turbo = df_turbo[df_turbo['year'] != 1987]
+    # df_turbo = df_turbo[df_turbo['year'] != 1988]
     
-    # replace year with number
-    df_turbo['year'] = df_turbo['year'].replace({1977: 1, 1978: 2, 1979: 3, 1980: 4, 1981: 5, 1982: 6, 1983: 7, 1984: 8, 1985: 9, 1986: 10})
-    df_hybrid['year'] = df_hybrid['year'].replace({2014: 1, 2015: 2, 2016: 3, 2017: 4, 2018: 5, 2019: 6, 2020: 7, 2021: 8, 2022: 9, 2023: 10})
+    # # replace year with number
+    # df_turbo['year'] = df_turbo['year'].replace({1977: 1, 1978: 2, 1979: 3, 1980: 4, 1981: 5, 1982: 6, 1983: 7, 1984: 8, 1985: 9, 1986: 10})
+    # df_hybrid['year'] = df_hybrid['year'].replace({2014: 1, 2015: 2, 2016: 3, 2017: 4, 2018: 5, 2019: 6, 2020: 7, 2021: 8, 2022: 9, 2023: 10})
 
     #########################################################
     ### ANOVA test
@@ -232,49 +232,88 @@ if 't' in args:
     from scipy.stats import f_oneway
     
     # get the data for each year
-    df_turbo_ys = df_turbo.groupby(['year', 'status']).size().reset_index(name='counts')
-    df_turbo_ys = df_turbo_ys.pivot(index=['status'], columns='year', values='counts')
+    df_turbo_ys = df_turbo.groupby(['year', 'status']).size().reset_index(name='means')
+    df_turbo_ys = df_turbo_ys.pivot(index=['status'], columns='year', values='means')
     df_turbo_ys = df_turbo_ys.fillna(0)
     
-    df_hybrid_ys = df_hybrid.groupby(['year', 'status']).size().reset_index(name='counts')
-    df_hybrid_ys = df_hybrid_ys.pivot(index=['status'], columns='year', values='counts')
+    df_hybrid_ys = df_hybrid.groupby(['year', 'status']).size().reset_index(name='means')
+    df_hybrid_ys = df_hybrid_ys.pivot(index=['status'], columns='year', values='means')
     df_hybrid_ys = df_hybrid_ys.fillna(0)
 
     # get the data for each circuit
-    df_turbo_circuit = df_turbo.groupby(['year', 'circuit', 'status']).size().reset_index(name='counts')
-    df_turbo_circuit = df_turbo_circuit.pivot(index=['circuit', 'status'], columns='year', values='counts')
+    df_turbo_circuit = df_turbo.groupby(['year', 'circuit', 'status']).size().reset_index(name='means')
+    df_turbo_circuit = df_turbo_circuit.pivot(index=['circuit', 'status'], columns='year', values='means')
     df_turbo_circuit = df_turbo_circuit.fillna(0)
     
-    df_hybrid_circuit = df_hybrid.groupby(['year', 'circuit', 'status']).size().reset_index(name='counts')
-    df_hybrid_circuit = df_hybrid_circuit.pivot(index=['circuit', 'status'], columns='year', values='counts')
+    df_hybrid_circuit = df_hybrid.groupby(['year', 'circuit', 'status']).size().reset_index(name='means')
+    df_hybrid_circuit = df_hybrid_circuit.pivot(index=['circuit', 'status'], columns='year', values='means')
     df_hybrid_circuit = df_hybrid_circuit.fillna(0)
-    
-    # apply the ANOVA test to the data
-    print('ANOVA test for each year:')
-    for year in df_hybrid_ys.columns:
-        print('Year: ' + str(year))
-        print(f_oneway(df_turbo_ys[year], df_hybrid_ys[year]))
-        print()
-        
-    print('ANOVA test for each circuit:')
+
+    # create a dataframe with the years as columns and the same years as rows
+    df_turbo_pvalues = pd.DataFrame(index=df_turbo_ys.columns, columns=df_turbo_ys.columns)
+    df_hybrid_pvalues = pd.DataFrame(index=df_hybrid_ys.columns, columns=df_hybrid_ys.columns)
+
+    # fill the dataframe with the pvalues
+    for year in df_turbo_pvalues.columns:
+        for year2 in df_turbo_pvalues.index:
+            df_turbo_pvalues.loc[year, year2] = f_oneway(df_turbo_ys[year], df_turbo_ys[year2])[1]
+
+    for year in df_hybrid_pvalues.columns:
+        for year2 in df_hybrid_pvalues.index:
+            df_hybrid_pvalues.loc[year, year2] = f_oneway(df_hybrid_ys[year], df_hybrid_ys[year2])[1]
+
+    # replace NaN with 1
+    df_turbo_pvalues = df_turbo_pvalues.fillna(1)
+    df_hybrid_pvalues = df_hybrid_pvalues.fillna(1)
+
+    # plot the pvalues as a heatmap
+    plt.title('ANOVA pvalues Turbo era')
+    plt.figure(figsize=(14,8))
+    sns.set_theme(style="white")
+    heatmap = sns.heatmap(df_turbo_pvalues, annot=True, cmap="Blues", fmt='.2g')
+    plt.savefig(os.path.join(plotpath, 'anova_turbo.png'))
+
+    plt.title('ANOVA pvalues Hybrid era')
+    plt.figure(figsize=(14,8))
+    sns.set_theme(style="white")
+    heatmap = sns.heatmap(df_hybrid_pvalues, annot=True, cmap="Greens", fmt='.2g')
+    plt.savefig(os.path.join(plotpath, 'anova_hybrid.png'))
+
+    # in the circuit dataframe add groups if they are missing in the circuit dataframe
     for circuit in df_turbo_circuit.index.get_level_values(0).unique():
-        print('Circuit: ' + str(circuit))
-        print(f_oneway(df_turbo_circuit.loc[circuit], df_hybrid_circuit.loc[circuit]))
-        print()
+        for group in ligroups:
+            if group not in df_turbo_circuit.loc[circuit].index:
+                df_turbo_circuit.loc[circuit][group] = 0
 
-    # T-test
-    from scipy.stats import ttest_ind
+    for circuit in df_hybrid_circuit.index.get_level_values(0).unique():
+        for group in ligroups:
+            if group not in df_hybrid_circuit.loc[circuit].index:
+                df_hybrid_circuit.loc[circuit][group] = 0
 
-    # apply the T-test to the data
-    print('T-test for each year:')
-    for year in df_hybrid_ys.columns:
-        print('Year: ' + str(year))
-        print(ttest_ind(df_turbo_ys[year], df_hybrid_ys[year]))
-        print()
-
-    print('T-test for each circuit:')
+    # the same dynamically for each circuit
     for circuit in df_turbo_circuit.index.get_level_values(0).unique():
-        print('Circuit: ' + str(circuit))
-        print(ttest_ind(df_turbo_circuit.loc[circuit], df_hybrid_circuit.loc[circuit]))
-        print()
-    
+        df_turbo_pvalues = pd.DataFrame(index=df_turbo_circuit.columns, columns=df_turbo_circuit.columns)
+        df_hybrid_pvalues = pd.DataFrame(index=df_hybrid_circuit.columns, columns=df_hybrid_circuit.columns)
+
+        for year in df_turbo_pvalues.columns:
+            for year2 in df_turbo_pvalues.index:
+                df_turbo_pvalues.loc[year, year2] = f_oneway(df_turbo_circuit.loc[circuit][year], df_turbo_circuit.loc[circuit][year2])[1]
+
+        for year in df_hybrid_pvalues.columns:
+            for year2 in df_hybrid_pvalues.index:
+                df_hybrid_pvalues.loc[year, year2] = f_oneway(df_hybrid_circuit.loc[circuit][year], df_hybrid_circuit.loc[circuit][year2])[1]
+
+        df_turbo_pvalues = df_turbo_pvalues.fillna(1)
+        df_hybrid_pvalues = df_hybrid_pvalues.fillna(1)
+
+        plt.title('ANOVA pvalues Turbo era (' + str(circuit) + ')')
+        plt.figure(figsize=(14,8))
+        sns.set_theme(style="white")
+        heatmap = sns.heatmap(df_turbo_pvalues, annot=True, cmap="Blues", fmt='.2g')
+        plt.savefig(os.path.join(circuitpath, 'anova_turbo_' + str(circuit) + '.png'))
+
+        plt.title('ANOVA pvalues Hybrid era (' + str(circuit) + ')')
+        plt.figure(figsize=(14,8))
+        sns.set_theme(style="white")
+        heatmap = sns.heatmap(df_hybrid_pvalues, annot=True, cmap="Greens", fmt='.2g')
+        plt.savefig(os.path.join(circuitpath, 'anova_hybrid_' + str(circuit) + '.png'))
