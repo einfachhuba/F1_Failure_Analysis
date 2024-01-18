@@ -327,19 +327,46 @@ if 't' in args:
     
     df_hybrid_means = df_hybrid.groupby(['status']).size().reset_index(name='means')
     df_hybrid_means = df_hybrid_means.set_index('status')
+
+    # add the missing groups to the dataframe
+    for group in ligroups:
+        if group not in df_turbo_means.index:
+            df_turbo_means.loc[group] = 0
+
+    for group in ligroups:
+        if group not in df_hybrid_means.index:
+            df_hybrid_means.loc[group] = 0
+
+    # sort the dataframe by the index
+    df_turbo_means.sort_index(inplace=True)
+    df_hybrid_means.sort_index(inplace=True)
     
     # T-Test between the two eras
     from scipy.stats import ttest_ind
     
-    print(df_turbo_means)
-    print()
-    print(df_hybrid_means)
-    
-    # do a T-test between the two dataframes
     ttest = ttest_ind(df_turbo_means, df_hybrid_means)
-    
+
     print()
     print('T-Test between the two eras:')
     print(ttest)
     
+    # Shapiro test for each group in each era
+    from scipy.stats import shapiro
+
+    df_turbo_shapiro = pd.DataFrame(index=df_turbo_ys.index, columns=['pvalue'])
+    df_hybrid_shapiro = pd.DataFrame(index=df_hybrid_ys.index, columns=['pvalue'])
+
+    for group in df_turbo_shapiro.index:
+        df_turbo_shapiro.loc[group] = shapiro(df_turbo_ys.loc[group])[1]
+    
+    for group in df_hybrid_shapiro.index:
+        df_hybrid_shapiro.loc[group] = shapiro(df_hybrid_ys.loc[group])[1]
+
+    print()
+    print('Shapiro test for Turbo era:')
+    print(df_turbo_shapiro)
+    print()
+    print('Shapiro test for Hybrid era:')
+    print(df_hybrid_shapiro)
+
 
