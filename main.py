@@ -29,6 +29,9 @@ ligroups =      ['Engine', 'Gearbox', 'Powertrain', 'Suspension', 'Electrical', 
                  'Fluid systems', 'Chassis', 'Driver-related', 'Overheating', 'Accident',
                  'Not classified', 'Disqualified', 'Turbo']
 
+import warnings
+warnings.filterwarnings('ignore')
+
 # check if args contains u 
 if not os.path.exists(os.path.join(path,r'turbo_era.csv')) or 'u' in args:
     print('Getting data...')
@@ -317,3 +320,26 @@ if 't' in args:
         sns.set_theme(style="white")
         heatmap = sns.heatmap(df_hybrid_pvalues, annot=True, cmap="Greens", fmt='.2g')
         plt.savefig(os.path.join(circuitpath, 'anova_hybrid_' + str(circuit) + '.png'))
+        
+    # get the means for the whole era
+    df_turbo_means = df_turbo.groupby(['status']).size().reset_index(name='means')
+    df_turbo_means = df_turbo_means.set_index('status')
+    
+    df_hybrid_means = df_hybrid.groupby(['status']).size().reset_index(name='means')
+    df_hybrid_means = df_hybrid_means.set_index('status')
+    
+    # T-Test between the two eras
+    from scipy.stats import ttest_ind
+    
+    print(df_turbo_means)
+    print()
+    print(df_hybrid_means)
+    
+    # do a T-test between the two dataframes
+    ttest = ttest_ind(df_turbo_means, df_hybrid_means)
+    
+    print()
+    print('T-Test between the two eras:')
+    print(ttest)
+    
+
