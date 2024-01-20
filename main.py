@@ -221,14 +221,6 @@ if 't' in args:
     df_turbo = df_turbo[df_turbo['circuit'].isin(licircuits)]
     df_hybrid = df_hybrid[df_hybrid['circuit'].isin(licircuits)]
 
-    # # drop the years 1987 and 1988
-    # df_turbo = df_turbo[df_turbo['year'] != 1987]
-    # df_turbo = df_turbo[df_turbo['year'] != 1988]
-    
-    # # replace year with number
-    # df_turbo['year'] = df_turbo['year'].replace({1977: 1, 1978: 2, 1979: 3, 1980: 4, 1981: 5, 1982: 6, 1983: 7, 1984: 8, 1985: 9, 1986: 10})
-    # df_hybrid['year'] = df_hybrid['year'].replace({2014: 1, 2015: 2, 2016: 3, 2017: 4, 2018: 5, 2019: 6, 2020: 7, 2021: 8, 2022: 9, 2023: 10})
-
     #########################################################
     ### ANOVA test
     #########################################################
@@ -321,6 +313,10 @@ if 't' in args:
         heatmap = sns.heatmap(df_hybrid_pvalues, annot=True, cmap="Greens", fmt='.2g')
         plt.savefig(os.path.join(circuitpath, 'anova_hybrid_' + str(circuit) + '.png'))
         
+    #########################################################
+    ### T-Test
+    #########################################################
+    
     # get the means for the whole era
     df_turbo_means = df_turbo.groupby(['status']).size().reset_index(name='means')
     df_turbo_means = df_turbo_means.set_index('status')
@@ -350,7 +346,9 @@ if 't' in args:
     print('T-Test between the two eras:')
     print(ttest)
     
-    # Shapiro test for each group in each era
+    #########################################################
+    ### Shapiro Test
+    #########################################################
     from scipy.stats import shapiro
 
     df_turbo_shapiro = pd.DataFrame(index=df_turbo_ys.index, columns=['pvalue'])
