@@ -369,4 +369,10 @@ if 't' in args:
     print('Shapiro test for Hybrid era:')
     print(df_hybrid_shapiro)
 
+    # concatenate the two dataframes
+    df_shapiro = pd.concat([df_turbo_shapiro, df_hybrid_shapiro], axis=1)
+    df_shapiro.columns = ['Turbo', 'Hybrid']
+
+    # export the dataframe to a csv file
+    df_shapiro.to_csv(os.path.join(path, 'shapiro.csv'))
 
